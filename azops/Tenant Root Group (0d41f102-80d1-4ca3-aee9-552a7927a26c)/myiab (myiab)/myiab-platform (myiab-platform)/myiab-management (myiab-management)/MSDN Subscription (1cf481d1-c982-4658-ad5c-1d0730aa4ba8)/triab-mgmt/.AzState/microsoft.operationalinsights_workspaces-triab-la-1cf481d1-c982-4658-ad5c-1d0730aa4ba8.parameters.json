@@ -1,0 +1,56 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/triab-mgmt/providers/microsoft.operationalinsights/workspaces/triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/triab-mgmt/providers/microsoft.operationalinsights/workspaces/triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Name": "triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "source": "Azure",
+          "customerId": "e1aaddbb-03b7-4c00-8a3b-2bb8baa6795f",
+          "provisioningState": "Succeeded",
+          "sku": {
+            "name": "pernode",
+            "maxCapacityReservationLevel": 3000,
+            "lastSkuUpdate": "Wed, 10 Feb 2021 11:17:57 GMT"
+          },
+          "retentionInDays": 30,
+          "features": {
+            "legacy": 0,
+            "searchVersion": 1,
+            "enableLogAccessUsingOnlyResourcePermissions": true
+          },
+          "workspaceCapping": {
+            "dailyQuotaGb": -1.0,
+            "quotaNextResetTime": "Sat, 20 Feb 2021 02:00:00 GMT",
+            "dataIngestionStatus": "RespectQuota"
+          },
+          "publicNetworkAccessForIngestion": "Enabled",
+          "publicNetworkAccessForQuery": "Enabled",
+          "createdDate": "Wed, 10 Feb 2021 11:17:57 GMT",
+          "modifiedDate": "Wed, 10 Feb 2021 11:19:05 GMT"
+        },
+        "ResourceGroupName": "triab-mgmt",
+        "Type": "microsoft.operationalinsights/workspaces",
+        "ResourceType": "microsoft.operationalinsights/workspaces",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

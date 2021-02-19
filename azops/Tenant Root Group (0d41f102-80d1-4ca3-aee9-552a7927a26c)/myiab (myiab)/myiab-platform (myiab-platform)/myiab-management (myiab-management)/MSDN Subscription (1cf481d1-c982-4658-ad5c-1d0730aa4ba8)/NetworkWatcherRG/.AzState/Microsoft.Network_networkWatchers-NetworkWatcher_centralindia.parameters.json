@@ -1,0 +1,35 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_centralindia",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_centralindia",
+        "Identity": null,
+        "Kind": null,
+        "Location": "centralindia",
+        "ManagedBy": null,
+        "ResourceName": "NetworkWatcher_centralindia",
+        "Name": "NetworkWatcher_centralindia",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "runningOperationIds": []
+        },
+        "ResourceGroupName": "NetworkWatcherRG",
+        "Type": "Microsoft.Network/networkWatchers",
+        "ResourceType": "Microsoft.Network/networkWatchers",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"d20bd9af-6e3b-4d7e-ae77-737ee9fc9779\""
+      }
+    }
+  }
+}

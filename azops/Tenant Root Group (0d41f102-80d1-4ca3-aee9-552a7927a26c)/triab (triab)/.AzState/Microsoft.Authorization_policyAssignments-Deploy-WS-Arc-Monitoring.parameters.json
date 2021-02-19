@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "967cc076-7b09-412c-b2f8-b090ac90e9c5",
+          "tenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-WS-Arc-Monitoring",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/triab/providers/Microsoft.Authorization/policyAssignments/Deploy-WS-Arc-Monitoring",
+        "Properties": {
+          "Description": "Deploy-Windows-Arc-Monitoring",
+          "DisplayName": "Deploy-Windows-Arc-Monitoring",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/triab-mgmt/providers/microsoft.operationalinsights/workspaces/triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/69af7d4a-7b18-4044-93a9-2651498ef203",
+          "Scope": "/providers/Microsoft.Management/managementGroups/triab"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/triab/providers/Microsoft.Authorization/policyAssignments/Deploy-WS-Arc-Monitoring",
+        "ResourceName": "Deploy-WS-Arc-Monitoring",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

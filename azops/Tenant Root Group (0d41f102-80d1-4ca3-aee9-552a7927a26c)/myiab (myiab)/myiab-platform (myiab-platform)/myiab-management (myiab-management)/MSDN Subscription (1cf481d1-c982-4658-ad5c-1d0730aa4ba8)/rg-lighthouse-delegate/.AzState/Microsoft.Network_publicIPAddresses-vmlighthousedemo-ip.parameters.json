@@ -1,0 +1,49 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/publicIPAddresses/vmlighthousedemo-ip",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/publicIPAddresses/vmlighthousedemo-ip",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vmlighthousedemo-ip",
+        "Name": "vmlighthousedemo-ip",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "915b045c-8285-42e2-a034-43f84f52cb13",
+          "publicIPAddressVersion": "IPv4",
+          "publicIPAllocationMethod": "Dynamic",
+          "idleTimeoutInMinutes": 4,
+          "ipTags": [],
+          "ipConfiguration": {
+            "id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/networkInterfaces/vmlighthousedemo720/ipConfigurations/ipconfig1"
+          }
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "Microsoft.Network/publicIPAddresses",
+        "ResourceType": "Microsoft.Network/publicIPAddresses",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Basic",
+          "Tier": "Regional",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"0b202c5e-7758-482a-831b-0c2d27cbf090\""
+      }
+    }
+  }
+}

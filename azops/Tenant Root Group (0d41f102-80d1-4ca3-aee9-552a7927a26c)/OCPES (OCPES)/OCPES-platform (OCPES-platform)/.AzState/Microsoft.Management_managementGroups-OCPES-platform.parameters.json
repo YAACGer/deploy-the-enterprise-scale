@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/OCPES-platform",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "OCPES-platform",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "OCPES-platform",
+        "UpdatedTime": "2020-08-10T18:43:13.5513528Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/OCPES",
+        "ParentName": "OCPES",
+        "ParentDisplayName": "OCPES",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/OCPES-identity",
+            "Name": "OCPES-identity",
+            "DisplayName": "OCPES-identity",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/OCPES-management",
+            "Name": "OCPES-management",
+            "DisplayName": "OCPES-management",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/OCPES-connectivity",
+            "Name": "OCPES-connectivity",
+            "DisplayName": "OCPES-connectivity",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

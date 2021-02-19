@@ -1,0 +1,49 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-azshci-demo/providers/Microsoft.HybridCompute/machines/DC01/extensions/DependencyAgentWindows",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-azshci-demo/providers/Microsoft.HybridCompute/machines/DC01/extensions/DependencyAgentWindows",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "DependencyAgentWindows",
+        "Name": "DependencyAgentWindows",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "publisher": "Microsoft.Azure.Monitoring.DependencyAgent",
+          "type": "DependencyAgentWindows",
+          "typeHandlerVersion": "9.10.7.12710",
+          "autoUpgradeMinorVersion": false,
+          "settings": {},
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "DependencyAgentWindows",
+            "type": "DependencyAgentWindows",
+            "typeHandlerVersion": "9.10.7.12710",
+            "status": {
+              "code": "success",
+              "level": "Information",
+              "message": ""
+            }
+          }
+        },
+        "ResourceGroupName": "rg-azshci-demo",
+        "Type": "Microsoft.HybridCompute/machines/extensions",
+        "ResourceType": "Microsoft.HybridCompute/machines/extensions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

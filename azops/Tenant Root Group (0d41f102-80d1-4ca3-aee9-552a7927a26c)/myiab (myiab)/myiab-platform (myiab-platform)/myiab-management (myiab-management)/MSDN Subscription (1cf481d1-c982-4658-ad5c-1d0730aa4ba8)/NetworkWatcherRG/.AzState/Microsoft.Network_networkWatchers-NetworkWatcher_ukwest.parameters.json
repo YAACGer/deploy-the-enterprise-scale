@@ -1,0 +1,35 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_ukwest",
+        "Identity": null,
+        "Kind": null,
+        "Location": "ukwest",
+        "ManagedBy": null,
+        "ResourceName": "NetworkWatcher_ukwest",
+        "Name": "NetworkWatcher_ukwest",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "runningOperationIds": []
+        },
+        "ResourceGroupName": "NetworkWatcherRG",
+        "Type": "Microsoft.Network/networkWatchers",
+        "ResourceType": "Microsoft.Network/networkWatchers",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"e68ecc1d-7af3-42c6-9d0b-3cb31adf1e3b\""
+      }
+    }
+  }
+}

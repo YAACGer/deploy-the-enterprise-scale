@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/triab-mgmt/providers/Microsoft.Automation/automationAccounts/triab-a-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/triab-mgmt/providers/Microsoft.Automation/automationAccounts/triab-a-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "triab-a-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Name": "triab-a-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "sku": {
+            "name": "Basic",
+            "family": null,
+            "capacity": null
+          },
+          "state": "Ok",
+          "RegistrationUrl": "https://d2986d10-3787-4b82-ba53-f34e8022965f.agentsvc.we.azure-automation.net/accounts/d2986d10-3787-4b82-ba53-f34e8022965f",
+          "creationTime": "2021-02-10T11:17:53.79+00:00",
+          "lastModifiedBy": null,
+          "lastModifiedTime": "2021-02-14T14:40:41.69+00:00"
+        },
+        "ResourceGroupName": "triab-mgmt",
+        "Type": "Microsoft.Automation/automationAccounts",
+        "ResourceType": "Microsoft.Automation/automationAccounts",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

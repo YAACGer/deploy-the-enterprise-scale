@@ -1,0 +1,76 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Storage/storageAccounts/sasaproundtable",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Storage/storageAccounts/sasaproundtable",
+        "Identity": null,
+        "Kind": "StorageV2",
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "sasaproundtable",
+        "Name": "sasaproundtable",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "privateEndpointConnections": [],
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+          },
+          "supportsHttpsTrafficOnly": true,
+          "encryption": {
+            "services": {
+              "file": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-02-14T12:44:33.6827813Z"
+              },
+              "blob": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-02-14T12:44:33.6827813Z"
+              }
+            },
+            "keySource": "Microsoft.Storage"
+          },
+          "accessTier": "Hot",
+          "provisioningState": "Succeeded",
+          "creationTime": "2020-02-14T12:44:33.6202870Z",
+          "primaryEndpoints": {
+            "dfs": "https://sasaproundtable.dfs.core.windows.net/",
+            "web": "https://sasaproundtable.z6.web.core.windows.net/",
+            "blob": "https://sasaproundtable.blob.core.windows.net/",
+            "queue": "https://sasaproundtable.queue.core.windows.net/",
+            "table": "https://sasaproundtable.table.core.windows.net/",
+            "file": "https://sasaproundtable.file.core.windows.net/"
+          },
+          "primaryLocation": "westeurope",
+          "statusOfPrimary": "available"
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "Microsoft.Storage/storageAccounts",
+        "ResourceType": "Microsoft.Storage/storageAccounts",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard_LRS",
+          "Tier": "Standard",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": {},
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

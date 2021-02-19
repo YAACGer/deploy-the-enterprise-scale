@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/triab-management",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "triab-management",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "triab-management",
+        "UpdatedTime": "2021-02-10T11:15:56.5331161Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/triab-platform",
+        "ParentName": "triab-platform",
+        "ParentDisplayName": "triab-platform",
+        "Children": null
+      }
+    }
+  }
+}

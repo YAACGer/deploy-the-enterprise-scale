@@ -1,0 +1,45 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/rg_loganalytics/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(mylogs-jno)",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/rg_loganalytics/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(mylogs-jno)",
+        "Identity": null,
+        "Kind": null,
+        "Location": "West Europe",
+        "ManagedBy": null,
+        "ResourceName": "SecurityCenterFree(mylogs-jno)",
+        "Name": "SecurityCenterFree(mylogs-jno)",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "SecurityCenterFree(mylogs-jno)",
+          "Publisher": "Microsoft",
+          "Product": "OMSGallery/SecurityCenterFree",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "workspaceResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/rg_loganalytics/providers/Microsoft.OperationalInsights/workspaces/mylogs-jno",
+          "provisioningState": "Succeeded",
+          "creationTime": "Wed, 20 May 2020 14:49:55 GMT",
+          "lastModifiedTime": "Wed, 20 May 2020 14:49:55 GMT",
+          "containedResources": [],
+          "workbookTemplates": []
+        },
+        "ResourceGroupName": "rg_loganalytics",
+        "Type": "Microsoft.OperationsManagement/solutions",
+        "ResourceType": "Microsoft.OperationsManagement/solutions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb1cf481d1c982x4658xad5",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/csb1cf481d1c982x4658xad5",
+        "Identity": null,
+        "Kind": "Storage",
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "csb1cf481d1c982x4658xad5",
+        "Name": "csb1cf481d1c982x4658xad5",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "privateEndpointConnections": [],
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+          },
+          "supportsHttpsTrafficOnly": false,
+          "encryption": {
+            "services": {
+              "file": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2018-06-05T13:52:41.7375252Z"
+              },
+              "blob": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2018-06-05T13:52:41.7375252Z"
+              }
+            },
+            "keySource": "Microsoft.Storage"
+          },
+          "provisioningState": "Succeeded",
+          "creationTime": "2018-06-05T13:52:41.5031976Z",
+          "primaryEndpoints": {
+            "blob": "https://csb1cf481d1c982x4658xad5.blob.core.windows.net/",
+            "queue": "https://csb1cf481d1c982x4658xad5.queue.core.windows.net/",
+            "table": "https://csb1cf481d1c982x4658xad5.table.core.windows.net/",
+            "file": "https://csb1cf481d1c982x4658xad5.file.core.windows.net/"
+          },
+          "primaryLocation": "westeurope",
+          "statusOfPrimary": "available"
+        },
+        "ResourceGroupName": "cloud-shell-storage-westeurope",
+        "Type": "Microsoft.Storage/storageAccounts",
+        "ResourceType": "Microsoft.Storage/storageAccounts",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard_LRS",
+          "Tier": "Standard",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": {
+          "ms-resource-usage": "azure-cloud-shell"
+        },
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

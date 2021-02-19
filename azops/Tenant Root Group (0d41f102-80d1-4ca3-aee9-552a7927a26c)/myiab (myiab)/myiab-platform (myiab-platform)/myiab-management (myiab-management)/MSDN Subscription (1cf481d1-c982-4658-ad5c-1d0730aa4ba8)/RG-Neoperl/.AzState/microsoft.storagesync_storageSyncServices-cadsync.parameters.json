@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/RG-Neoperl/providers/microsoft.storagesync/storageSyncServices/cadsync",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/RG-Neoperl/providers/microsoft.storagesync/storageSyncServices/cadsync",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "cadsync",
+        "Name": "cadsync",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "storageSyncServiceStatus": 0,
+          "incomingTrafficPolicy": "AllowAllTraffic",
+          "privateEndpointConnections": [],
+          "provisioningState": "",
+          "lastWorkflowId": "",
+          "lastOperationName": ""
+        },
+        "ResourceGroupName": "RG-Neoperl",
+        "Type": "microsoft.storagesync/storageSyncServices",
+        "ResourceType": "microsoft.storagesync/storageSyncServices",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

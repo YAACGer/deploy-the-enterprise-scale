@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "c9a4c030-4313-4ec8-bc02-fb1e7d1ec0a3",
+          "tenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-SQL-DB-Auditing",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/triab-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "Properties": {
+          "Description": "Deploy-SQL-Audit",
+          "DisplayName": "Deploy-SQL-Audit",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+          "Scope": "/providers/Microsoft.Management/managementGroups/triab-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/triab-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "ResourceName": "Deploy-SQL-DB-Auditing",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

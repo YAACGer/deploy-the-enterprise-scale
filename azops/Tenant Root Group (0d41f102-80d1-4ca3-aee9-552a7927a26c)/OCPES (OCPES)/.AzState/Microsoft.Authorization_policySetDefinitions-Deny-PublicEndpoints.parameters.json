@@ -1,0 +1,64 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "Deny-PublicEndpoints",
+        "PolicySetDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policySetDefinitions/Deny-PublicEndpoints",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deny-Public-Endpoints-for-PaaS-Services",
+          "Parameters": {},
+          "PolicyDefinitionGroups": null,
+          "PolicyDefinitions": [
+            {
+              "policyDefinitionReferenceId": "5595574877007017721",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-CosmosDB",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "5715446477943775287",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-MariaDB",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "18276224286996026315",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-MySQL",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "18176270806547292747",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-PostgreSql",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "15261867485871431563",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-KeyVault",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "17394000430029241087",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-Sql",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "17744785909347401620",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-Storage",
+              "parameters": {}
+            },
+            {
+              "policyDefinitionReferenceId": "18117163083461080632",
+              "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-Aks",
+              "parameters": {}
+            }
+          ]
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policySetDefinitions/Deny-PublicEndpoints",
+        "ResourceName": "Deny-PublicEndpoints",
+        "ResourceType": "Microsoft.Authorization/policySetDefinitions",
+        "SubscriptionId": null
+      }
+    }
+  }
+}

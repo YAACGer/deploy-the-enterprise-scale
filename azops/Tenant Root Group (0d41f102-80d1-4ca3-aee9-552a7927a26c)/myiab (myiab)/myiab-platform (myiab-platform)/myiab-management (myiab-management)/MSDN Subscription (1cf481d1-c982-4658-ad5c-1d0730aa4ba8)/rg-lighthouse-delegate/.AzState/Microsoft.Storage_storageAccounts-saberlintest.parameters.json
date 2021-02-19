@@ -1,0 +1,76 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Storage/storageAccounts/saberlintest",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Storage/storageAccounts/saberlintest",
+        "Identity": null,
+        "Kind": "StorageV2",
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "saberlintest",
+        "Name": "saberlintest",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "privateEndpointConnections": [],
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+          },
+          "supportsHttpsTrafficOnly": true,
+          "encryption": {
+            "services": {
+              "file": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-03-09T11:24:14.8208473Z"
+              },
+              "blob": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-03-09T11:24:14.8208473Z"
+              }
+            },
+            "keySource": "Microsoft.Storage"
+          },
+          "accessTier": "Hot",
+          "provisioningState": "Succeeded",
+          "creationTime": "2020-03-09T11:24:14.7583435Z",
+          "primaryEndpoints": {
+            "dfs": "https://saberlintest.dfs.core.windows.net/",
+            "web": "https://saberlintest.z6.web.core.windows.net/",
+            "blob": "https://saberlintest.blob.core.windows.net/",
+            "queue": "https://saberlintest.queue.core.windows.net/",
+            "table": "https://saberlintest.table.core.windows.net/",
+            "file": "https://saberlintest.file.core.windows.net/"
+          },
+          "primaryLocation": "westeurope",
+          "statusOfPrimary": "available"
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "Microsoft.Storage/storageAccounts",
+        "ResourceType": "Microsoft.Storage/storageAccounts",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard_LRS",
+          "Tier": "Standard",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": {},
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
