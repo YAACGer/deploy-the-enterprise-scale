@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/publicIPAddresses/pip-vm-onprem-HV01",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/publicIPAddresses/pip-vm-onprem-HV01",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "pip-vm-onprem-HV01",
+        "Name": "pip-vm-onprem-HV01",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "d379ff2f-3d4c-4701-b2a4-25dc1a9f1d51",
+          "ipAddress": "52.233.254.185",
+          "publicIPAddressVersion": "IPv4",
+          "publicIPAllocationMethod": "Static",
+          "idleTimeoutInMinutes": 4,
+          "dnsSettings": {
+            "domainNameLabel": "yaachypervkfwj",
+            "fqdn": "yaachypervkfwj.westeurope.cloudapp.azure.com"
+          },
+          "ipTags": [],
+          "ipConfiguration": {
+            "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkInterfaces/nic-01-vm-onprem-HV01/ipConfigurations/ipconfig1"
+          }
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Network/publicIPAddresses",
+        "ResourceType": "Microsoft.Network/publicIPAddresses",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Basic",
+          "Tier": "Regional",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"3bda5fe3-0bf5-4062-9328-165fcc5ea7fd\""
+      }
+    }
+  }
+}

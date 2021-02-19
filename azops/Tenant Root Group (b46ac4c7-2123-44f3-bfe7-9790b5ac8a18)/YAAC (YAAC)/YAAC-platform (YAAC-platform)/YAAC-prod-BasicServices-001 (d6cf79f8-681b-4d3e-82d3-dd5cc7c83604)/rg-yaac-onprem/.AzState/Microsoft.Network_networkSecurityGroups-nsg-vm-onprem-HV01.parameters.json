@@ -1,0 +1,302 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "nsg-vm-onprem-HV01",
+        "Name": "nsg-vm-onprem-HV01",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "ba956f0d-f903-4db5-ba3f-804ef1187c56",
+          "securityRules": [
+            {
+              "name": "RemoteDesktop",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/RemoteDesktop",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Tcp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "3389",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 300,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "HTTP",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/HTTP",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Tcp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "80",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 310,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "HTTPAdmin",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/HTTPAdmin",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Tcp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "8080",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 320,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "RRASUDP500",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/RRASUDP500",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Udp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "500",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 330,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "RRASUDP4500",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/RRASUDP4500",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Udp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "4500",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 340,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "RRASUDP1701",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/securityRules/RRASUDP1701",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "protocol": "Udp",
+                "sourcePortRange": "*",
+                "destinationPortRange": "1701",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 350,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            }
+          ],
+          "defaultSecurityRules": [
+            {
+              "name": "AllowVnetInBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/AllowVnetInBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Allow inbound traffic from all VMs in VNET",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "VirtualNetwork",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 65000,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "AllowAzureLoadBalancerInBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/AllowAzureLoadBalancerInBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Allow inbound traffic from azure load balancer",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "AzureLoadBalancer",
+                "destinationAddressPrefix": "*",
+                "access": "Allow",
+                "priority": 65001,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "DenyAllInBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/DenyAllInBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Deny all inbound traffic",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "*",
+                "access": "Deny",
+                "priority": 65500,
+                "direction": "Inbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "AllowVnetOutBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/AllowVnetOutBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Allow outbound traffic from all VMs to all VMs in VNET",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "VirtualNetwork",
+                "destinationAddressPrefix": "VirtualNetwork",
+                "access": "Allow",
+                "priority": 65000,
+                "direction": "Outbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "AllowInternetOutBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/AllowInternetOutBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Allow outbound traffic from all VMs to Internet",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "Internet",
+                "access": "Allow",
+                "priority": 65001,
+                "direction": "Outbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            },
+            {
+              "name": "DenyAllOutBound",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkSecurityGroups/nsg-vm-onprem-HV01/defaultSecurityRules/DenyAllOutBound",
+              "etag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\"",
+              "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "description": "Deny all outbound traffic",
+                "protocol": "*",
+                "sourcePortRange": "*",
+                "destinationPortRange": "*",
+                "sourceAddressPrefix": "*",
+                "destinationAddressPrefix": "*",
+                "access": "Deny",
+                "priority": 65500,
+                "direction": "Outbound",
+                "sourcePortRanges": [],
+                "destinationPortRanges": [],
+                "sourceAddressPrefixes": [],
+                "destinationAddressPrefixes": []
+              }
+            }
+          ],
+          "networkInterfaces": [
+            {
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkInterfaces/nic-01-vm-onprem-HV01"
+            }
+          ]
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Network/networkSecurityGroups",
+        "ResourceType": "Microsoft.Network/networkSecurityGroups",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"fa224322-3acb-488d-8c27-f259c115095b\""
+      }
+    }
+  }
+}

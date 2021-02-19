@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg/runbooks/RunBk_GetUsageAggregates",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg/runbooks/RunBk_GetUsageAggregates",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "RunBk_GetUsageAggregates",
+        "Name": "RunBk_GetUsageAggregates",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "description": "Runbook to gather azure consumption of the day.",
+          "logVerbose": true,
+          "logProgress": false,
+          "logActivityTrace": 0,
+          "runbookType": "PowerShell",
+          "parameters": {
+            "myDate": {
+              "type": "System.String",
+              "isMandatory": false,
+              "position": 0,
+              "defaultValue": null
+            }
+          },
+          "state": "Published",
+          "jobCount": 0,
+          "provisioningState": "Succeeded",
+          "serviceManagementTags": null,
+          "outputTypes": [],
+          "creationTime": "2020-08-19T09:34:31.187+00:00",
+          "lastModifiedBy": null,
+          "lastModifiedTime": "2020-08-19T14:55:24.193+00:00"
+        },
+        "ResourceGroupName": "rg-myAzureCost",
+        "Type": "Microsoft.Automation/automationAccounts/runbooks",
+        "ResourceType": "Microsoft.Automation/automationAccounts/runbooks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "\"637334457241930000\""
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-identity/providers/Microsoft.ManagedIdentity/userAssignedIdentities/DeployDiagLog",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-identity/providers/Microsoft.ManagedIdentity/userAssignedIdentities/DeployDiagLog",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "DeployDiagLog",
+        "Name": "DeployDiagLog",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "principalId": "928336e4-bf2a-454a-a364-f4ae8c4dae23",
+          "clientId": "1224ec1d-ecda-4a19-8c7c-faf333aa05b2"
+        },
+        "ResourceGroupName": "rg-yaac-identity",
+        "Type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

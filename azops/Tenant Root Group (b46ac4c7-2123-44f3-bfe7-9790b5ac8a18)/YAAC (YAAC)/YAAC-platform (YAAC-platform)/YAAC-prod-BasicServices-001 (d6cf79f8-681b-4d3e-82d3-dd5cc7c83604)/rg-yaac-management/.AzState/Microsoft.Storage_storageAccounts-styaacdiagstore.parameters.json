@@ -1,0 +1,77 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.Storage/storageAccounts/styaacdiagstore",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.Storage/storageAccounts/styaacdiagstore",
+        "Identity": null,
+        "Kind": "StorageV2",
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "styaacdiagstore",
+        "Name": "styaacdiagstore",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "privateEndpointConnections": [],
+          "isHnsEnabled": false,
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+          },
+          "supportsHttpsTrafficOnly": true,
+          "encryption": {
+            "services": {
+              "file": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-06-30T11:02:51.2675998Z"
+              },
+              "blob": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-06-30T11:02:51.2675998Z"
+              }
+            },
+            "keySource": "Microsoft.Storage"
+          },
+          "accessTier": "Hot",
+          "provisioningState": "Succeeded",
+          "creationTime": "2020-06-30T11:02:51.1738460Z",
+          "primaryEndpoints": {
+            "dfs": "https://styaacdiagstore.dfs.core.windows.net/",
+            "web": "https://styaacdiagstore.z6.web.core.windows.net/",
+            "blob": "https://styaacdiagstore.blob.core.windows.net/",
+            "queue": "https://styaacdiagstore.queue.core.windows.net/",
+            "table": "https://styaacdiagstore.table.core.windows.net/",
+            "file": "https://styaacdiagstore.file.core.windows.net/"
+          },
+          "primaryLocation": "westeurope",
+          "statusOfPrimary": "available"
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.Storage/storageAccounts",
+        "ResourceType": "Microsoft.Storage/storageAccounts",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard_LRS",
+          "Tier": "Standard",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

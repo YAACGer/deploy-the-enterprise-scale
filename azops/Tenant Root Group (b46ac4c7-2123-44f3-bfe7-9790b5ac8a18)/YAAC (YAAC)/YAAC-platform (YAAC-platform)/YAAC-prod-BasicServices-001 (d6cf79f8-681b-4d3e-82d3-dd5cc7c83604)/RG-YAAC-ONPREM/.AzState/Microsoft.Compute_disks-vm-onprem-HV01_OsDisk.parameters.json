@@ -1,0 +1,60 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/RG-YAAC-ONPREM/providers/Microsoft.Compute/disks/vm-onprem-HV01_OsDisk",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/RG-YAAC-ONPREM/providers/Microsoft.Compute/disks/vm-onprem-HV01_OsDisk",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vm-onprem-HV01_OsDisk",
+        "Name": "vm-onprem-HV01_OsDisk",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "osType": "Windows",
+          "hyperVGeneration": "V1",
+          "creationData": {
+            "createOption": "FromImage",
+            "imageReference": {
+              "id": "/Subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/Providers/Microsoft.Compute/Locations/westeurope/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2019-Datacenter/Versions/17763.1282.2006061952"
+            }
+          },
+          "diskSizeGB": 127,
+          "diskIOPSReadWrite": 500,
+          "diskMBpsReadWrite": 100,
+          "encryption": {
+            "type": "EncryptionAtRestWithPlatformKey"
+          },
+          "timeCreated": "2020-06-29T10:41:44.3491592+00:00",
+          "provisioningState": "Succeeded",
+          "diskState": "Reserved",
+          "diskSizeBytes": 136367308800,
+          "uniqueId": "b840eb7c-3dd4-4d74-926d-df4f55d984a3",
+          "networkAccessPolicy": "AllowAll"
+        },
+        "ResourceGroupName": "RG-YAAC-ONPREM",
+        "Type": "Microsoft.Compute/disks",
+        "ResourceType": "Microsoft.Compute/disks",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Premium_LRS",
+          "Tier": "Premium",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/YAAC",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "YAAC",
+        "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "DisplayName": "YAAC",
+        "UpdatedTime": "2020-06-16T20:31:21.528804Z",
+        "UpdatedBy": "e635c865-e790-4c89-a410-a7f69e547913",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "ParentName": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/YAAC-sandboxes",
+            "Name": "YAAC-sandboxes",
+            "DisplayName": "YAAC-sandboxes",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones",
+            "Name": "YAAC-landingzones",
+            "DisplayName": "YAAC-Landing Zones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/YAAC-decomissioned",
+            "Name": "YAAC-decomissioned",
+            "DisplayName": "YAAC-decomissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/YAAC-platform",
+            "Name": "YAAC-platform",
+            "DisplayName": "YAAC-platform",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

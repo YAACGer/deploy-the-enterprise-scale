@@ -1,0 +1,49 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Sendgrid.Email/accounts/sgridazconsumptionzhcg",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Sendgrid.Email/accounts/sgridazconsumptionzhcg",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "sgridazconsumptionzhcg",
+        "Name": "sgridazconsumptionzhcg",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "free",
+          "Publisher": "Sendgrid",
+          "Product": "sendgrid_azure",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "status": "Running",
+          "username": "azure_8a4d7fb0471e3f05742a41f0a0f1df5b@azure.com",
+          "smtpServer": "smtp.sendgrid.net",
+          "email": "bfrank@microsoft.com",
+          "planLabel": "Free",
+          "isFromPortalV1": false,
+          "firstName": "Bernhard",
+          "lastName": "Frank",
+          "company": "na",
+          "website": "http://Website"
+        },
+        "ResourceGroupName": "rg-myAzureCost",
+        "Type": "Sendgrid.Email/accounts",
+        "ResourceType": "Sendgrid.Email/accounts",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

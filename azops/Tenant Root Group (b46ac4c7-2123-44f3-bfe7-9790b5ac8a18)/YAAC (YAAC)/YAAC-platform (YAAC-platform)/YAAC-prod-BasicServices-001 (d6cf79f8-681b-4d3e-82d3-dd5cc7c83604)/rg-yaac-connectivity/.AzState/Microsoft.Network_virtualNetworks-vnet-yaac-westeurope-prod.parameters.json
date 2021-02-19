@@ -1,0 +1,104 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vnet-yaac-westeurope-prod",
+        "Name": "vnet-yaac-westeurope-prod",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "c2509b85-09e3-49cf-85c6-b8570568587b",
+          "addressSpace": {
+            "addressPrefixes": [
+              "10.0.0.0/16"
+            ]
+          },
+          "dhcpOptions": {
+            "dnsServers": []
+          },
+          "subnets": [
+            {
+              "name": "GatewaySubnet",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod/subnets/GatewaySubnet",
+              "etag": "W/\"91cfd462-da4c-4a41-8af8-4ea3675b9546\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.0.0/24",
+                "serviceEndpoints": [],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+              "name": "snet-Bastion-weu-001",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod/subnets/snet-Bastion-weu-001",
+              "etag": "W/\"91cfd462-da4c-4a41-8af8-4ea3675b9546\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.2.0/24",
+                "serviceEndpoints": [],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+              "name": "snet-AD-weu-001",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod/subnets/snet-AD-weu-001",
+              "etag": "W/\"91cfd462-da4c-4a41-8af8-4ea3675b9546\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.1.0/24",
+                "serviceEndpoints": [],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+              "name": "snet-Firewall-weu-001",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-connectivity/providers/Microsoft.Network/virtualNetworks/vnet-yaac-westeurope-prod/subnets/snet-Firewall-weu-001",
+              "etag": "W/\"91cfd462-da4c-4a41-8af8-4ea3675b9546\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.3.0/24",
+                "serviceEndpoints": [],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false,
+          "enableVmProtection": false
+        },
+        "ResourceGroupName": "rg-yaac-connectivity",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"91cfd462-da4c-4a41-8af8-4ea3675b9546\""
+      }
+    }
+  }
+}

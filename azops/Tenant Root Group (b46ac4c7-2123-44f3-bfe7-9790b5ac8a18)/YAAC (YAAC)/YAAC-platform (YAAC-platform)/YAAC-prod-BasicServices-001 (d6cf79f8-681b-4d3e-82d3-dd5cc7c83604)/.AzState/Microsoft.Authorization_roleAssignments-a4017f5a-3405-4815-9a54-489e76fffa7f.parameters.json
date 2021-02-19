@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/a4017f5a-3405-4815-9a54-489e76fffa7f",
+        "Name": "a4017f5a-3405-4815-9a54-489e76fffa7f",
+        "properties": {
+          "DisplayName": "Bernhard Frank",
+          "ObjectType": "User",
+          "PrincipalId": "eb07acd5-1973-4863-8db7-d3a85e9e4112",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/publicIPAddresses/VM0101-ip",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/publicIPAddresses/VM0101-ip",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "VM0101-ip",
+        "Name": "VM0101-ip",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "1fda2467-8477-48b0-8970-c0270494b274",
+          "ipAddress": "20.71.201.233",
+          "publicIPAddressVersion": "IPv4",
+          "publicIPAllocationMethod": "Dynamic",
+          "idleTimeoutInMinutes": 4,
+          "ipTags": [],
+          "ipConfiguration": {
+            "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkInterfaces/vm0101618/ipConfigurations/ipconfig1"
+          }
+        },
+        "ResourceGroupName": "rg-demo-vs",
+        "Type": "Microsoft.Network/publicIPAddresses",
+        "ResourceType": "Microsoft.Network/publicIPAddresses",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Basic",
+          "Tier": "Regional",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"18e02d62-0ace-4575-b2f5-968375ac9173\""
+      }
+    }
+  }
+}

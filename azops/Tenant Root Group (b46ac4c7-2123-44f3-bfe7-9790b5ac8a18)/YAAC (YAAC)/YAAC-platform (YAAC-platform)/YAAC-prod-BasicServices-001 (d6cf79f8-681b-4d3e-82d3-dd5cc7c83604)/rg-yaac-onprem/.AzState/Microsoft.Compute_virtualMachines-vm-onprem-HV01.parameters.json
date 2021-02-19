@@ -1,0 +1,89 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Compute/virtualMachines/vm-onprem-HV01",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Compute/virtualMachines/vm-onprem-HV01",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vm-onprem-HV01",
+        "Name": "vm-onprem-HV01",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "vmId": "0c1a8c03-2447-4baf-a6cf-681ecf9bfa86",
+          "hardwareProfile": {
+            "vmSize": "Standard_D8s_v3"
+          },
+          "storageProfile": {
+            "imageReference": {
+              "publisher": "MicrosoftWindowsServer",
+              "offer": "WindowsServer",
+              "sku": "2019-Datacenter",
+              "version": "latest",
+              "exactVersion": "17763.1282.2006061952"
+            },
+            "osDisk": {
+              "osType": "Windows",
+              "name": "vm-onprem-HV01_OsDisk",
+              "createOption": "FromImage",
+              "caching": "ReadWrite",
+              "managedDisk": {
+                "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/RG-YAAC-ONPREM/providers/Microsoft.Compute/disks/vm-onprem-HV01_OsDisk"
+              }
+            },
+            "dataDisks": [
+              {
+                "lun": 0,
+                "name": "vm-onprem-HV01_DataDisk",
+                "createOption": "Empty",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                  "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/RG-YAAC-ONPREM/providers/Microsoft.Compute/disks/vm-onprem-HV01_DataDisk"
+                },
+                "toBeDetached": false
+              }
+            ]
+          },
+          "osProfile": {
+            "computerName": "vm-onprem-HV01",
+            "adminUsername": "yaacadmin",
+            "windowsConfiguration": {
+              "provisionVMAgent": true,
+              "enableAutomaticUpdates": true,
+              "patchSettings": {
+                "patchMode": "AutomaticByOS"
+              }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+          },
+          "networkProfile": {
+            "networkInterfaces": [
+              {
+                "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkInterfaces/nic-01-vm-onprem-HV01"
+              }
+            ]
+          },
+          "provisioningState": "Succeeded"
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Compute/virtualMachines",
+        "ResourceType": "Microsoft.Compute/virtualMachines",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

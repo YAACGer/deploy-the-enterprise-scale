@@ -1,0 +1,68 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.KeyVault/vaults/kv-yaac-vault",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.KeyVault/vaults/kv-yaac-vault",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "kv-yaac-vault",
+        "Name": "kv-yaac-vault",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "sku": {
+            "family": "A",
+            "name": "standard"
+          },
+          "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "defaultAction": "Deny",
+            "ipRules": [],
+            "virtualNetworkRules": []
+          },
+          "accessPolicies": [
+            {
+              "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+              "objectId": "e4c8fd81-46bf-4065-a42e-ddb17c684342",
+              "permissions": {
+                "keys": [
+                  "get"
+                ],
+                "secrets": [
+                  "get"
+                ],
+                "certificates": [],
+                "storage": [
+                  "get"
+                ]
+              }
+            }
+          ],
+          "enabledForDeployment": false,
+          "enabledForDiskEncryption": true,
+          "enabledForTemplateDeployment": false,
+          "enableSoftDelete": true,
+          "vaultUri": "https://kv-yaac-vault.vault.azure.net/",
+          "provisioningState": "Succeeded"
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.KeyVault/vaults",
+        "ResourceType": "Microsoft.KeyVault/vaults",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

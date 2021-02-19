@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/3b67f66b-1232-4a68-a1f8-bb0cb4d28211",
+        "Name": "3b67f66b-1232-4a68-a1f8-bb0cb4d28211",
+        "properties": {
+          "DisplayName": "b51b8b7ab28b4bcdbdb8714c",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "2136270a-20a1-4da3-90b9-c11501c6a762",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

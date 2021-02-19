@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-features-pull-request-backend-prod/providers/Microsoft.RecoveryServices/vaults/rg-features-pull-request-backend-prod-backupvault",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-features-pull-request-backend-prod/providers/Microsoft.RecoveryServices/vaults/rg-features-pull-request-backend-prod-backupvault",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "rg-features-pull-request-backend-prod-backupvault",
+        "Name": "rg-features-pull-request-backend-prod-backupvault",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "privateEndpointStateForBackup": "None",
+          "privateEndpointStateForSiteRecovery": "None"
+        },
+        "ResourceGroupName": "rg-features-pull-request-backend-prod",
+        "Type": "Microsoft.RecoveryServices/vaults",
+        "ResourceType": "Microsoft.RecoveryServices/vaults",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard",
+          "Tier": null,
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"datetime'2021-02-16T20%3A21%3A20.1741293Z'\""
+      }
+    }
+  }
+}

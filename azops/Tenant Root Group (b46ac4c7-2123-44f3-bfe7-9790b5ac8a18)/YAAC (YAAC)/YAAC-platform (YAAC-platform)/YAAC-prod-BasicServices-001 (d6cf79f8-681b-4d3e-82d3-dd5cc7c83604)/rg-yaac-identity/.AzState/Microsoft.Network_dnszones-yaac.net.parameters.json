@@ -1,0 +1,44 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-identity/providers/Microsoft.Network/dnszones/yaac.net",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-identity/providers/Microsoft.Network/dnszones/yaac.net",
+        "Identity": null,
+        "Kind": null,
+        "Location": "global",
+        "ManagedBy": null,
+        "ResourceName": "yaac.net",
+        "Name": "yaac.net",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "maxNumberOfRecordSets": 10000,
+          "maxNumberOfRecordsPerRecordSet": null,
+          "nameServers": [
+            "ns1-03.azure-dns.com.",
+            "ns2-03.azure-dns.net.",
+            "ns3-03.azure-dns.org.",
+            "ns4-03.azure-dns.info."
+          ],
+          "numberOfRecordSets": 3,
+          "serveRecordsBelowDelegation": null,
+          "zoneType": "Public"
+        },
+        "ResourceGroupName": "rg-yaac-identity",
+        "Type": "Microsoft.Network/dnszones",
+        "ResourceType": "Microsoft.Network/dnszones",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "00000002-0000-0000-52a2-62198845d601"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/defaultresourcegroup-weu/providers/microsoft.operationalinsights/workspaces/defaultworkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-weu",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/defaultresourcegroup-weu/providers/microsoft.operationalinsights/workspaces/defaultworkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-weu",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU",
+        "Name": "DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "source": "Azure",
+          "customerId": "e3493d18-1201-4e36-ae4a-b68804006ae0",
+          "provisioningState": "Succeeded",
+          "sku": {
+            "name": "pergb2018",
+            "maxCapacityReservationLevel": 3000,
+            "lastSkuUpdate": "Thu, 29 Oct 2020 12:38:29 GMT"
+          },
+          "retentionInDays": 30,
+          "features": {
+            "legacy": 0,
+            "searchVersion": 1,
+            "enableLogAccessUsingOnlyResourcePermissions": true
+          },
+          "workspaceCapping": {
+            "dailyQuotaGb": -1.0,
+            "quotaNextResetTime": "Sat, 20 Feb 2021 09:00:00 GMT",
+            "dataIngestionStatus": "RespectQuota"
+          },
+          "publicNetworkAccessForIngestion": "Enabled",
+          "publicNetworkAccessForQuery": "Enabled",
+          "createdDate": "Thu, 29 Oct 2020 12:38:29 GMT",
+          "modifiedDate": "Tue, 01 Dec 2020 17:41:38 GMT"
+        },
+        "ResourceGroupName": "defaultresourcegroup-weu",
+        "Type": "microsoft.operationalinsights/workspaces",
+        "ResourceType": "microsoft.operationalinsights/workspaces",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

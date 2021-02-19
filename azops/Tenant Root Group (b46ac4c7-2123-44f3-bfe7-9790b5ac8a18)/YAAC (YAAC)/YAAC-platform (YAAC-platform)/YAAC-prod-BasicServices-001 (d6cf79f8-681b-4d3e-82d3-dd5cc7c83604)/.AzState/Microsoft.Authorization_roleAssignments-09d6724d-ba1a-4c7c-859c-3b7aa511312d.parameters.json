@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/09d6724d-ba1a-4c7c-859c-3b7aa511312d",
+        "Name": "09d6724d-ba1a-4c7c-859c-3b7aa511312d",
+        "properties": {
+          "DisplayName": "niophey-ARM Deployment-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "61fe8bf5-14df-4a91-b821-479b3d9abbe6",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

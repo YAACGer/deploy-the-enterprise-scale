@@ -1,0 +1,56 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/microsoft.operationalinsights/workspaces/log-yaac-analyticsworkspace",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/microsoft.operationalinsights/workspaces/log-yaac-analyticsworkspace",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "log-yaac-analyticsworkspace",
+        "Name": "log-yaac-analyticsworkspace",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "source": "Azure",
+          "customerId": "b218e9f1-dbb0-4840-bbcd-8d61c9d854a4",
+          "provisioningState": "Succeeded",
+          "sku": {
+            "name": "pergb2018",
+            "maxCapacityReservationLevel": 3000,
+            "lastSkuUpdate": "Wed, 24 Jun 2020 16:24:26 GMT"
+          },
+          "retentionInDays": 30,
+          "features": {
+            "legacy": 0,
+            "searchVersion": 1,
+            "enableLogAccessUsingOnlyResourcePermissions": true
+          },
+          "workspaceCapping": {
+            "dailyQuotaGb": -1.0,
+            "quotaNextResetTime": "Fri, 19 Feb 2021 16:00:00 GMT",
+            "dataIngestionStatus": "RespectQuota"
+          },
+          "publicNetworkAccessForIngestion": "Enabled",
+          "publicNetworkAccessForQuery": "Enabled",
+          "createdDate": "Wed, 24 Jun 2020 16:24:26 GMT",
+          "modifiedDate": "Tue, 01 Dec 2020 17:27:44 GMT"
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "microsoft.operationalinsights/workspaces",
+        "ResourceType": "microsoft.operationalinsights/workspaces",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

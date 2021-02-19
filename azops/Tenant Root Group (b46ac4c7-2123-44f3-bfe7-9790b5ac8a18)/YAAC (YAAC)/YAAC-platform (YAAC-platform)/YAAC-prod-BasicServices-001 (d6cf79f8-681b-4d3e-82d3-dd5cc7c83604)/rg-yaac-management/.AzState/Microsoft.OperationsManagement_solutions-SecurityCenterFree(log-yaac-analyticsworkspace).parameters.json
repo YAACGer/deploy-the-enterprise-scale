@@ -1,0 +1,45 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(log-yaac-analyticsworkspace)",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(log-yaac-analyticsworkspace)",
+        "Identity": null,
+        "Kind": null,
+        "Location": "West Europe",
+        "ManagedBy": null,
+        "ResourceName": "SecurityCenterFree(log-yaac-analyticsworkspace)",
+        "Name": "SecurityCenterFree(log-yaac-analyticsworkspace)",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "SecurityCenterFree(log-yaac-analyticsworkspace)",
+          "Publisher": "Microsoft",
+          "Product": "OMSGallery/SecurityCenterFree",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "workspaceResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace",
+          "provisioningState": "Succeeded",
+          "creationTime": "Thu, 29 Oct 2020 12:38:13 GMT",
+          "lastModifiedTime": "Thu, 29 Oct 2020 12:38:13 GMT",
+          "containedResources": [],
+          "workbookTemplates": []
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.OperationsManagement/solutions",
+        "ResourceType": "Microsoft.OperationsManagement/solutions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

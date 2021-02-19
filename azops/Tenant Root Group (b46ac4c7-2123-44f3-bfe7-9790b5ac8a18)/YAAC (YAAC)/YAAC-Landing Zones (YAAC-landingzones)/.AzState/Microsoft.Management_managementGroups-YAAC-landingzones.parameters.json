@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "YAAC-landingzones",
+        "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "DisplayName": "YAAC-Landing Zones",
+        "UpdatedTime": "2020-06-16T20:35:48.6820111Z",
+        "UpdatedBy": "e635c865-e790-4c89-a410-a7f69e547913",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/YAAC",
+        "ParentName": "YAAC",
+        "ParentDisplayName": "YAAC",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+            "Name": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+            "DisplayName": "YAAC-prod-WVD-001",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea",
+            "Name": "67f16219-3421-4cef-89b9-c06cf90d7bea",
+            "DisplayName": "YAAC-prod-SAP-001",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones/providers/Microsoft.Authorization/roleAssignments/c00e04f6-038a-4234-9ee8-4533697a0865",
+        "Name": "c00e04f6-038a-4234-9ee8-4533697a0865",
+        "properties": {
+          "DisplayName": "niophey@microsoft.com Ophey",
+          "ObjectType": "User",
+          "PrincipalId": "e635c865-e790-4c89-a410-a7f69e547913",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

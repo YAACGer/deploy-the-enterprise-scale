@@ -1,0 +1,100 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.KeyVault/vaults/yaacOnpremVault",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.KeyVault/vaults/yaacOnpremVault",
+        "Identity": null,
+        "Kind": null,
+        "Location": "germanywestcentral",
+        "ManagedBy": null,
+        "ResourceName": "yaacOnpremVault",
+        "Name": "yaacOnpremVault",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "sku": {
+            "family": "A",
+            "name": "Standard"
+          },
+          "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "accessPolicies": [
+            {
+              "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+              "objectId": "eb07acd5-1973-4863-8db7-d3a85e9e4112",
+              "permissions": {
+                "keys": [
+                  "Get",
+                  "List",
+                  "Update",
+                  "Create",
+                  "Import",
+                  "Delete",
+                  "Recover",
+                  "Backup",
+                  "Restore",
+                  "Decrypt",
+                  "Encrypt",
+                  "UnwrapKey",
+                  "WrapKey",
+                  "Verify",
+                  "Sign",
+                  "Purge"
+                ],
+                "secrets": [
+                  "Get",
+                  "List",
+                  "Set",
+                  "Delete",
+                  "Recover",
+                  "Backup",
+                  "Restore",
+                  "Purge"
+                ],
+                "certificates": [
+                  "Get",
+                  "List",
+                  "Update",
+                  "Create",
+                  "Import",
+                  "Delete",
+                  "Recover",
+                  "Backup",
+                  "Restore",
+                  "ManageContacts",
+                  "ManageIssuers",
+                  "GetIssuers",
+                  "ListIssuers",
+                  "SetIssuers",
+                  "DeleteIssuers",
+                  "Purge"
+                ]
+              }
+            }
+          ],
+          "enabledForDeployment": true,
+          "enabledForDiskEncryption": true,
+          "enabledForTemplateDeployment": true,
+          "enableSoftDelete": true,
+          "softDeleteRetentionInDays": 90,
+          "enableRbacAuthorization": false,
+          "vaultUri": "https://yaaconpremvault.vault.azure.net/",
+          "provisioningState": "Succeeded"
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.KeyVault/vaults",
+        "ResourceType": "Microsoft.KeyVault/vaults",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

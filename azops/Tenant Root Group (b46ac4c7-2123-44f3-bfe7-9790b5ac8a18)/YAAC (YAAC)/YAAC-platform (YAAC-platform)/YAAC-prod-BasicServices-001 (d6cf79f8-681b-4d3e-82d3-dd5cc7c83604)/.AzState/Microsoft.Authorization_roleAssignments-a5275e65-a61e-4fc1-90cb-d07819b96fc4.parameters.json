@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/a5275e65-a61e-4fc1-90cb-d07819b96fc4",
+        "Name": "a5275e65-a61e-4fc1-90cb-d07819b96fc4",
+        "properties": {
+          "DisplayName": "myAzureCostAA",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b3ddd5c5-3f63-4227-9366-8ee143a0cc6a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

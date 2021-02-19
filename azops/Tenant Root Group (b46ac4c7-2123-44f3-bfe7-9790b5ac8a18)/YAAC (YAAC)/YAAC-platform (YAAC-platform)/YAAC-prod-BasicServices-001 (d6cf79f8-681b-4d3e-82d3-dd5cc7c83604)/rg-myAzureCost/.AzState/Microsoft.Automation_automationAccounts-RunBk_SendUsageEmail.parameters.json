@@ -1,0 +1,47 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg/runbooks/RunBk_SendUsageEmail",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg/runbooks/RunBk_SendUsageEmail",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "RunBk_SendUsageEmail",
+        "Name": "RunBk_SendUsageEmail",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "description": "Send consumption as .csv attached to an email (via sendgrid).",
+          "logVerbose": true,
+          "logProgress": false,
+          "logActivityTrace": 0,
+          "runbookType": "PowerShell",
+          "parameters": {},
+          "state": "Published",
+          "jobCount": 0,
+          "provisioningState": "Succeeded",
+          "serviceManagementTags": null,
+          "outputTypes": [],
+          "creationTime": "2020-08-19T09:34:31.24+00:00",
+          "lastModifiedBy": null,
+          "lastModifiedTime": "2020-08-19T09:34:31.243+00:00"
+        },
+        "ResourceGroupName": "rg-myAzureCost",
+        "Type": "Microsoft.Automation/automationAccounts/runbooks",
+        "ResourceType": "Microsoft.Automation/automationAccounts/runbooks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "\"637334264712430000\""
+      }
+    }
+  }
+}
