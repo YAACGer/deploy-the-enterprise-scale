@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/YAAC-sandboxes",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "YAAC-sandboxes",
+        "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "DisplayName": "YAAC-sandboxes",
+        "UpdatedTime": "2020-06-16T20:35:48.5395159Z",
+        "UpdatedBy": "e635c865-e790-4c89-a410-a7f69e547913",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/YAAC",
+        "ParentName": "YAAC",
+        "ParentDisplayName": "YAAC",
+        "Children": null
+      }
+    }
+  }
+}

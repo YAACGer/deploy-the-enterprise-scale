@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea/providers/Microsoft.Authorization/roleAssignments/6876ab24-8f20-41e3-a65e-080740d837e9",
+        "Name": "6876ab24-8f20-41e3-a65e-080740d837e9",
+        "properties": {
+          "DisplayName": "Sasa Naric",
+          "ObjectType": "User",
+          "PrincipalId": "fff99b8f-6a4e-4abf-945d-6234c81263a0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/virtualNetworks/rg-demo-vs-vnet",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/virtualNetworks/rg-demo-vs-vnet",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "rg-demo-vs-vnet",
+        "Name": "rg-demo-vs-vnet",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "c1296888-d79c-4ac8-9daa-8c06f7523b12",
+          "addressSpace": {
+            "addressPrefixes": [
+              "10.0.1.0/24"
+            ]
+          },
+          "subnets": [
+            {
+              "name": "default",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/virtualNetworks/rg-demo-vs-vnet/subnets/default",
+              "etag": "W/\"6ac4a0fe-eebe-4cc8-b207-84b44b6731f0\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.1.0/24",
+                "ipConfigurations": [
+                  {
+                    "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkInterfaces/vm0101618/ipConfigurations/ipconfig1"
+                  }
+                ],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false,
+          "enableVmProtection": false
+        },
+        "ResourceGroupName": "rg-demo-vs",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"6ac4a0fe-eebe-4cc8-b207-84b44b6731f0\""
+      }
+    }
+  }
+}

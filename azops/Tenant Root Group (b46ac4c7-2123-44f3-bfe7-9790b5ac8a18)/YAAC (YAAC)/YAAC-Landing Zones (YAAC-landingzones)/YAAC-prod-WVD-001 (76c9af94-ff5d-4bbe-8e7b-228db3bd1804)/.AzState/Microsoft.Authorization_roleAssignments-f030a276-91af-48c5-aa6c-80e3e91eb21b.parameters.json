@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/providers/Microsoft.Authorization/roleAssignments/f030a276-91af-48c5-aa6c-80e3e91eb21b",
+        "Name": "f030a276-91af-48c5-aa6c-80e3e91eb21b",
+        "properties": {
+          "DisplayName": "Robert Boban",
+          "ObjectType": "User",
+          "PrincipalId": "fce7df9f-5772-446a-965c-464eee124aca",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

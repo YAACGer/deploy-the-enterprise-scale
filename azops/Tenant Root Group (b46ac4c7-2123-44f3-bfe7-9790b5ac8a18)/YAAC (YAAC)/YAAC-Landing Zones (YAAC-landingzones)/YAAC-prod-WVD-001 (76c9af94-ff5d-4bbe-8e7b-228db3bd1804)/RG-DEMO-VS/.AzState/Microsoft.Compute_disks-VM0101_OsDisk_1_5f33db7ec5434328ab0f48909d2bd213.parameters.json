@@ -1,0 +1,61 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/RG-DEMO-VS/providers/Microsoft.Compute/disks/VM0101_OsDisk_1_5f33db7ec5434328ab0f48909d2bd213",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/RG-DEMO-VS/providers/Microsoft.Compute/disks/VM0101_OsDisk_1_5f33db7ec5434328ab0f48909d2bd213",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "VM0101_OsDisk_1_5f33db7ec5434328ab0f48909d2bd213",
+        "Name": "VM0101_OsDisk_1_5f33db7ec5434328ab0f48909d2bd213",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "osType": "Windows",
+          "hyperVGeneration": "V1",
+          "creationData": {
+            "createOption": "FromImage",
+            "imageReference": {
+              "id": "/Subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/Providers/Microsoft.Compute/Locations/westeurope/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2019-Datacenter/Versions/17763.1697.2101090203"
+            }
+          },
+          "diskSizeGB": 127,
+          "diskIOPSReadWrite": 500,
+          "diskMBpsReadWrite": 100,
+          "encryption": {
+            "type": "EncryptionAtRestWithPlatformKey"
+          },
+          "timeCreated": "2021-02-02T09:16:03.3653698+00:00",
+          "provisioningState": "Succeeded",
+          "diskState": "Attached",
+          "diskSizeBytes": 136367308800,
+          "uniqueId": "5f33db7e-c543-4328-ab0f-48909d2bd213",
+          "networkAccessPolicy": "AllowAll",
+          "tier": "P10"
+        },
+        "ResourceGroupName": "RG-DEMO-VS",
+        "Type": "Microsoft.Compute/disks",
+        "ResourceType": "Microsoft.Compute/disks",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Premium_LRS",
+          "Tier": "Premium",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": null,
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

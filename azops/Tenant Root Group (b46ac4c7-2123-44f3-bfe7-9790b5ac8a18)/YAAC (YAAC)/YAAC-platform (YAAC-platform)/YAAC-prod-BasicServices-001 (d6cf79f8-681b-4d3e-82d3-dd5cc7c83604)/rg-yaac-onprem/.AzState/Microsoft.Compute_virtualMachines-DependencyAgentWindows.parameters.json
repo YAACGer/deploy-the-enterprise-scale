@@ -1,0 +1,38 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Compute/virtualMachines/vm-onprem-HV01/extensions/DependencyAgentWindows",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Compute/virtualMachines/vm-onprem-HV01/extensions/DependencyAgentWindows",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "DependencyAgentWindows",
+        "Name": "DependencyAgentWindows",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "autoUpgradeMinorVersion": true,
+          "provisioningState": "Succeeded",
+          "publisher": "Microsoft.Azure.Monitoring.DependencyAgent",
+          "type": "DependencyAgentWindows",
+          "typeHandlerVersion": "9.10"
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Compute/virtualMachines/extensions",
+        "ResourceType": "Microsoft.Compute/virtualMachines/extensions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

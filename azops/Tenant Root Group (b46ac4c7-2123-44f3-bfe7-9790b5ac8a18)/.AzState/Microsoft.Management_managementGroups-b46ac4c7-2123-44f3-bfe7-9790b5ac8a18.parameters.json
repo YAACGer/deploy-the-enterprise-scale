@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+        "DisplayName": "Tenant Root Group",
+        "UpdatedTime": "2020-06-16T20:31:21.4194234Z",
+        "UpdatedBy": "e635c865-e790-4c89-a410-a7f69e547913",
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/YAAC",
+            "Name": "YAAC",
+            "DisplayName": "YAAC",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

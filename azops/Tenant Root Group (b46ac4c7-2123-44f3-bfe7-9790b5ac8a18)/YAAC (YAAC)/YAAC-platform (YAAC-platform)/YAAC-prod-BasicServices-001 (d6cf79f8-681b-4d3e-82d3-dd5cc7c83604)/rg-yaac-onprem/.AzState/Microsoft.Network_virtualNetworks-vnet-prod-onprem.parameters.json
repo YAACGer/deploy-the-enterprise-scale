@@ -1,0 +1,63 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/virtualNetworks/vnet-prod-onprem",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/virtualNetworks/vnet-prod-onprem",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vnet-prod-onprem",
+        "Name": "vnet-prod-onprem",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "1d7a9f66-3dc5-48d2-9a24-bbc02a6f8d87",
+          "addressSpace": {
+            "addressPrefixes": [
+              "172.31.255.0/24"
+            ]
+          },
+          "subnets": [
+            {
+              "name": "snet-Hyper-V-LAN",
+              "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/virtualNetworks/vnet-prod-onprem/subnets/snet-Hyper-V-LAN",
+              "etag": "W/\"078e7b43-35b7-4418-900d-18d9838216e5\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "172.31.255.0/24",
+                "ipConfigurations": [
+                  {
+                    "id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Network/networkInterfaces/nic-01-vm-onprem-HV01/ipConfigurations/ipconfig1"
+                  }
+                ],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false,
+          "enableVmProtection": false
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"078e7b43-35b7-4418-900d-18d9838216e5\""
+      }
+    }
+  }
+}

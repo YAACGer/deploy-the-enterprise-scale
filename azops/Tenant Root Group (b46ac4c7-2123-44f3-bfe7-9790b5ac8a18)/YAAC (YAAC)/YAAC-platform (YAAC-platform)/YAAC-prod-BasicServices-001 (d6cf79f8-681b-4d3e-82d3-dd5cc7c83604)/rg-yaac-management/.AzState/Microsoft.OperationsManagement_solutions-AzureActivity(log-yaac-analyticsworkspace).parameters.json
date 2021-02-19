@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/AzureActivity(log-yaac-analyticsworkspace)",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/AzureActivity(log-yaac-analyticsworkspace)",
+        "Identity": null,
+        "Kind": null,
+        "Location": "West Europe",
+        "ManagedBy": null,
+        "ResourceName": "AzureActivity(log-yaac-analyticsworkspace)",
+        "Name": "AzureActivity(log-yaac-analyticsworkspace)",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "AzureActivity(log-yaac-analyticsworkspace)",
+          "Publisher": "Microsoft",
+          "Product": "OMSGallery/AzureActivity",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "workspaceResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace",
+          "provisioningState": "Succeeded",
+          "creationTime": "Wed, 24 Jun 2020 22:35:09 GMT",
+          "lastModifiedTime": "Wed, 24 Jun 2020 22:35:09 GMT",
+          "containedResources": [
+            "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace/views/AzureActivity(log-yaac-analyticsworkspace)"
+          ],
+          "workbookTemplates": [
+            {
+              "source": "url",
+              "id": {
+                "public": "https://azmonsolutions.blob.core.windows.net/workbooktemplates/Azure%20Activity%20Log/Azure%20Activity%20Log.workbook"
+              }
+            }
+          ]
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.OperationsManagement/solutions",
+        "ResourceType": "Microsoft.OperationsManagement/solutions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

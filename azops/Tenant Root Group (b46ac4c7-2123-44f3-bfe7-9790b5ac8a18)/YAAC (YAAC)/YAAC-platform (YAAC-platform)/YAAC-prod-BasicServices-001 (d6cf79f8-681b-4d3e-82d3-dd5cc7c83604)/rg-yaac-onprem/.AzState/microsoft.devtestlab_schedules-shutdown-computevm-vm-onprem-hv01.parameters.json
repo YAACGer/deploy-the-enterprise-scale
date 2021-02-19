@@ -1,0 +1,48 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-onprem/providers/microsoft.devtestlab/schedules/shutdown-computevm-vm-onprem-hv01",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-onprem/providers/microsoft.devtestlab/schedules/shutdown-computevm-vm-onprem-hv01",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "shutdown-computevm-vm-onprem-HV01",
+        "Name": "shutdown-computevm-vm-onprem-HV01",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "status": "Enabled",
+          "taskType": "ComputeVmShutdownTask",
+          "dailyRecurrence": {
+            "time": "2100"
+          },
+          "timeZoneId": "W. Europe Standard Time",
+          "notificationSettings": {
+            "status": "Disabled",
+            "timeInMinutes": 30,
+            "notificationLocale": "en"
+          },
+          "createdDate": "2020-06-30T08:53:00.1683489+00:00",
+          "targetResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Compute/virtualMachines/vm-onprem-HV01",
+          "provisioningState": "Succeeded",
+          "uniqueIdentifier": "133849e3-661c-4345-9459-570e5109cc1b"
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "microsoft.devtestlab/schedules",
+        "ResourceType": "microsoft.devtestlab/schedules",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

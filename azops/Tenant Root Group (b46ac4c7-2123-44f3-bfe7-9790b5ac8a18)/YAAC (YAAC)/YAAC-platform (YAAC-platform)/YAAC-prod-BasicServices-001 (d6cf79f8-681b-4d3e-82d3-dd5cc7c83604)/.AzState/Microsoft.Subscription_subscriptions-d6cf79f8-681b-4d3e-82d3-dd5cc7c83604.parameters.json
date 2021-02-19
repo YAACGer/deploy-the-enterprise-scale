@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "Name": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "DisplayName": "YAAC-prod-BasicServices-001",
+        "Children": null
+      }
+    }
+  }
+}

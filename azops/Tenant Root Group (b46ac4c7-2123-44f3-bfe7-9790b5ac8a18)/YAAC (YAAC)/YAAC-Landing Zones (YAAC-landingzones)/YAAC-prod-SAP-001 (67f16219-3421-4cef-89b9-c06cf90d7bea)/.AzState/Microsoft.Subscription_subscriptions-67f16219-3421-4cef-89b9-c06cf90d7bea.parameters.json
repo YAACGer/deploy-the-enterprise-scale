@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea",
+        "Name": "67f16219-3421-4cef-89b9-c06cf90d7bea",
+        "DisplayName": "YAAC-prod-SAP-001",
+        "Children": null
+      }
+    }
+  }
+}

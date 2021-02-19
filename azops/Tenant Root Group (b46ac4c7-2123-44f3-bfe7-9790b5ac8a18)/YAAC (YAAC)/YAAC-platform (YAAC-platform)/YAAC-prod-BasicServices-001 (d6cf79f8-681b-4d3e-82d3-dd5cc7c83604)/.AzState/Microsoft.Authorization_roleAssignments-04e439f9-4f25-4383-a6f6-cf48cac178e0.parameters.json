@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/04e439f9-4f25-4383-a6f6-cf48cac178e0",
+        "Name": "04e439f9-4f25-4383-a6f6-cf48cac178e0",
+        "properties": {
+          "DisplayName": "Andreas Mock",
+          "ObjectType": "User",
+          "PrincipalId": "efbda8ef-f26f-4db9-b885-0928f50accac",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

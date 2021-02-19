@@ -1,0 +1,52 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-identity/providers/Microsoft.DomainRegistration/domains/yaac.net",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-identity/providers/Microsoft.DomainRegistration/domains/yaac.net",
+        "Identity": null,
+        "Kind": null,
+        "Location": "global",
+        "ManagedBy": null,
+        "ResourceName": "yaac.net",
+        "Name": "yaac.net",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "registrationStatus": "Active",
+          "provisioningState": "Succeeded",
+          "nameServers": [
+            "ns1-03.azure-dns.com",
+            "ns2-03.azure-dns.net",
+            "ns3-03.azure-dns.org",
+            "ns4-03.azure-dns.info"
+          ],
+          "privacy": true,
+          "createdTime": "2020-06-18T10:50:10",
+          "expirationTime": "2021-06-18T10:50:10",
+          "autoRenew": true,
+          "readyForDnsRecordManagement": true,
+          "managedHostNames": [],
+          "domainNotRenewableReasons": [
+            "ExpirationNotInRenewalTimeRange"
+          ],
+          "dnsType": "AzureDns",
+          "dnsZoneId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-identity/providers/Microsoft.Network/dnszones/yaac.net"
+        },
+        "ResourceGroupName": "rg-yaac-identity",
+        "Type": "Microsoft.DomainRegistration/domains",
+        "ResourceType": "Microsoft.DomainRegistration/domains",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

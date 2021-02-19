@@ -1,0 +1,78 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Storage/storageAccounts/miscsayaac",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onprem/providers/Microsoft.Storage/storageAccounts/miscsayaac",
+        "Identity": null,
+        "Kind": "StorageV2",
+        "Location": "germanywestcentral",
+        "ManagedBy": null,
+        "ResourceName": "miscsayaac",
+        "Name": "miscsayaac",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "privateEndpointConnections": [],
+          "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+          },
+          "supportsHttpsTrafficOnly": true,
+          "encryption": {
+            "services": {
+              "file": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-06-18T16:01:00.5667055Z"
+              },
+              "blob": {
+                "keyType": "Account",
+                "enabled": true,
+                "lastEnabledTime": "2020-06-18T16:01:00.5667055Z"
+              }
+            },
+            "keySource": "Microsoft.Storage"
+          },
+          "accessTier": "Hot",
+          "provisioningState": "Succeeded",
+          "creationTime": "2020-06-18T16:01:00.5041716Z",
+          "primaryEndpoints": {
+            "dfs": "https://miscsayaac.dfs.core.windows.net/",
+            "web": "https://miscsayaac.z1.web.core.windows.net/",
+            "blob": "https://miscsayaac.blob.core.windows.net/",
+            "queue": "https://miscsayaac.queue.core.windows.net/",
+            "table": "https://miscsayaac.table.core.windows.net/",
+            "file": "https://miscsayaac.file.core.windows.net/"
+          },
+          "primaryLocation": "germanywestcentral",
+          "statusOfPrimary": "available"
+        },
+        "ResourceGroupName": "rg-yaac-onprem",
+        "Type": "Microsoft.Storage/storageAccounts",
+        "ResourceType": "Microsoft.Storage/storageAccounts",
+        "ExtensionResourceType": null,
+        "Sku": {
+          "Name": "Standard_LRS",
+          "Tier": "Standard",
+          "Size": null,
+          "Family": null,
+          "Model": null,
+          "Capacity": null
+        },
+        "Tags": {
+          "ms-resource-usage": "azure-cloud-shell"
+        },
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

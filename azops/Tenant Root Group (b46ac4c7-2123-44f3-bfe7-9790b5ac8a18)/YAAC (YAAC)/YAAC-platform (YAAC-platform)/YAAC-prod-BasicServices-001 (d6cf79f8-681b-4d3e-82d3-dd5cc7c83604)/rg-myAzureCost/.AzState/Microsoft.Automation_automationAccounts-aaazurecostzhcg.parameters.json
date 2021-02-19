@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-myAzureCost/providers/Microsoft.Automation/automationAccounts/aaazurecostzhcg",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "aaazurecostzhcg",
+        "Name": "aaazurecostzhcg",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "sku": {
+            "name": "Basic",
+            "family": null,
+            "capacity": null
+          },
+          "state": "Ok",
+          "RegistrationUrl": "https://8be9f6c5-fdb4-4232-be93-d3d7b6f876d0.agentsvc.we.azure-automation.net/accounts/8be9f6c5-fdb4-4232-be93-d3d7b6f876d0",
+          "creationTime": "2020-08-19T09:34:29.12+00:00",
+          "lastModifiedBy": null,
+          "lastModifiedTime": "2021-01-30T07:23:04.173+00:00"
+        },
+        "ResourceGroupName": "rg-myAzureCost",
+        "Type": "Microsoft.Automation/automationAccounts",
+        "ResourceType": "Microsoft.Automation/automationAccounts",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

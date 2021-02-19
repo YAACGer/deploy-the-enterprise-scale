@@ -1,0 +1,45 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/defaultresourcegroup-weu/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU)",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/defaultresourcegroup-weu/providers/Microsoft.OperationsManagement/solutions/SecurityCenterFree(DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU)",
+        "Identity": null,
+        "Kind": null,
+        "Location": "West Europe",
+        "ManagedBy": null,
+        "ResourceName": "SecurityCenterFree(DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU)",
+        "Name": "SecurityCenterFree(DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU)",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "SecurityCenterFree(DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU)",
+          "Publisher": "Microsoft",
+          "Product": "OMSGallery/SecurityCenterFree",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "workspaceResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/defaultresourcegroup-weu/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-d6cf79f8-681b-4d3e-82d3-dd5cc7c83604-WEU",
+          "provisioningState": "Succeeded",
+          "creationTime": "Thu, 29 Oct 2020 12:39:05 GMT",
+          "lastModifiedTime": "Thu, 29 Oct 2020 12:39:05 GMT",
+          "containedResources": [],
+          "workbookTemplates": []
+        },
+        "ResourceGroupName": "defaultresourcegroup-weu",
+        "Type": "Microsoft.OperationsManagement/solutions",
+        "ResourceType": "Microsoft.OperationsManagement/solutions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
