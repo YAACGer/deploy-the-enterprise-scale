@@ -1,0 +1,12 @@
+{
+    "name": "sayaactrialstore",
+    "type": "Microsoft.Storage/storageAccounts",
+    "apiVersion": "2015-06-15",
+    "location": "[resourceGroup().location]",
+    "tags": {
+        "displayName": "sayaactriastorel"
+    },
+    "properties": {
+        "accountType": "Standard_LRS"
+    }
+}
