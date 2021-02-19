@@ -1,0 +1,63 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/virtualNetworks/rg-lighthouse-delegate-vnet",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/virtualNetworks/rg-lighthouse-delegate-vnet",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "rg-lighthouse-delegate-vnet",
+        "Name": "rg-lighthouse-delegate-vnet",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "bf9a613c-c902-4df8-9475-67a0299732f3",
+          "addressSpace": {
+            "addressPrefixes": [
+              "10.0.0.0/24"
+            ]
+          },
+          "subnets": [
+            {
+              "name": "default",
+              "id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/virtualNetworks/rg-lighthouse-delegate-vnet/subnets/default",
+              "etag": "W/\"ec7b9679-bef8-42e7-b58f-ce3def48964c\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.0.0/24",
+                "ipConfigurations": [
+                  {
+                    "id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/networkInterfaces/vmlighthousedemo720/ipConfigurations/ipconfig1"
+                  }
+                ],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false,
+          "enableVmProtection": false
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"ec7b9679-bef8-42e7-b58f-ce3def48964c\""
+      }
+    }
+  }
+}

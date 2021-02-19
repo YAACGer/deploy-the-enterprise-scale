@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/NOES",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "NOES",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "NOES",
+        "UpdatedTime": "2020-07-01T17:20:40.2300147Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "ParentName": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/NOES-decomissioned",
+            "Name": "NOES-decomissioned",
+            "DisplayName": "NOES-decomissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/NOES-sandboxes",
+            "Name": "NOES-sandboxes",
+            "DisplayName": "NOES-sandboxes",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/NOES-landingzones",
+            "Name": "NOES-landingzones",
+            "DisplayName": "NOES-Landing Zones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/NOES-platform",
+            "Name": "NOES-platform",
+            "DisplayName": "NOES-platform",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

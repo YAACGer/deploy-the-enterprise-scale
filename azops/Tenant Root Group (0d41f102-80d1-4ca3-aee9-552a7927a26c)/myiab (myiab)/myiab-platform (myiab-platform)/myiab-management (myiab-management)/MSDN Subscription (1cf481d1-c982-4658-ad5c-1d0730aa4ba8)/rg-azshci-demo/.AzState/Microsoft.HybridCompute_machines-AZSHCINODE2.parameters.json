@@ -1,0 +1,57 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-azshci-demo/providers/Microsoft.HybridCompute/machines/AZSHCINODE2",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-azshci-demo/providers/Microsoft.HybridCompute/machines/AZSHCINODE2",
+        "Identity": {
+          "PrincipalId": "b0e4994e-02ab-4b2d-a537-38539dbe1e07",
+          "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "Type": "SystemAssigned",
+          "UserAssignedIdentities": null
+        },
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "AZSHCINODE2",
+        "Name": "AZSHCINODE2",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "agentVersion": "1.3.20346.001",
+          "status": "Disconnected",
+          "lastStatusChange": "2020-12-18T18:26:06.6754849",
+          "errorDetails": [],
+          "displayName": "AZSHCINODE2",
+          "machineFqdn": "AZSHCINODE2",
+          "osName": "windows",
+          "osVersion": "10.0.17784.1408",
+          "osProfile": {
+            "computerName": "AZSHCINODE2"
+          },
+          "vmId": "8e0a6fce-a607-47a0-b439-a4ed5d205d67",
+          "vmUuid": "4C6AF9EC-D64D-493E-B2DB-0BD6C38F9EE7",
+          "clientPublicKey": "MIIBCgKCAQEAyNRk3IWYr6MXe+nTef3CELe6HxkUc0hQTh7YWnLTWFhUbKBTRkRd+Y86iQfQAFcD1nSmP7j9ArQL0P3bZezteVvszeLhz7jegEOwS4DUC1ClS9rWZZjPueiGFov9+e/U+1fxgY9lEW9qwbTI4VsPxWM/hc+SxKARD36hIOzjVRy7pYedv576xrTaTI3m8Kagdzvg98j8tIhbF56FW4bRt1oRc5gLjcsakVF0BtW5dq6uXILolf8eFeDIuq4qNyAGOpLXhAETeaZzkOjroqu/AJjCu1UW1YAk/8ZuokfS7DgaOznP6qVjT55QWtsBig99LSMCPPCLTwaiJSv3vVJU5QIDAQAB",
+          "osSku": "Azure Stack HCI",
+          "domainName": "azshci.local",
+          "adFqdn": "AZSHCINODE2.azshci.local",
+          "dnsFqdn": "azshci.local.AZSHCINODE2"
+        },
+        "ResourceGroupName": "rg-azshci-demo",
+        "Type": "Microsoft.HybridCompute/machines",
+        "ResourceType": "Microsoft.HybridCompute/machines",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

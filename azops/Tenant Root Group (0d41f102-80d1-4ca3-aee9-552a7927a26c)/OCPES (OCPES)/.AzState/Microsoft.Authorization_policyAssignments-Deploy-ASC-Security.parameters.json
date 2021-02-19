@@ -1,0 +1,55 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "1dd1ce0d-0123-430f-9027-8b2fc5ee20b3",
+          "tenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "type": "SystemAssigned"
+        },
+        "Location": "northeurope",
+        "Name": "Deploy-ASC-Security",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Security",
+        "Properties": {
+          "Description": "Deploy-ASC",
+          "DisplayName": "Deploy-ASC",
+          "NotScopes": null,
+          "Parameters": {
+            "pricingTierAppServices": {
+              "value": "Free"
+            },
+            "pricingTierContainerRegistry": {
+              "value": "Free"
+            },
+            "pricingTierKeyVaults": {
+              "value": "Free"
+            },
+            "pricingTierKubernetesService": {
+              "value": "Free"
+            },
+            "pricingTierSqlServers": {
+              "value": "Free"
+            },
+            "pricingTierStorageAccounts": {
+              "value": "Free"
+            },
+            "pricingTierVms": {
+              "value": "Free"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyDefinitions/Deploy-ASC-Standard",
+          "Scope": "/providers/Microsoft.Management/managementGroups/OCPES"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/OCPES/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Security",
+        "ResourceName": "Deploy-ASC-Security",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

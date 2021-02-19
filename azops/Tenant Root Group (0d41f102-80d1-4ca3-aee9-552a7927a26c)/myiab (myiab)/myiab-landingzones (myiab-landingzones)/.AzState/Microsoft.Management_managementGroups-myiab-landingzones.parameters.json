@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/myiab-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "myiab-landingzones",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "myiab-landingzones",
+        "UpdatedTime": "2021-02-11T08:28:19.0983524Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/myiab",
+        "ParentName": "myiab",
+        "ParentDisplayName": "myiab",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-corp",
+            "Name": "myiab-corp",
+            "DisplayName": "myiab-corp",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-online",
+            "Name": "myiab-online",
+            "DisplayName": "myiab-online",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

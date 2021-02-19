@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/OCPES-identity",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "OCPES-identity",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "OCPES-identity",
+        "UpdatedTime": "2020-08-10T18:43:49.3995602Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/OCPES-platform",
+        "ParentName": "OCPES-platform",
+        "ParentDisplayName": "OCPES-platform",
+        "Children": null
+      }
+    }
+  }
+}

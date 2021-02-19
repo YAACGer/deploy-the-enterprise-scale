@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "4be4bf3f-b784-455d-9494-39379edff802",
+          "tenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-LX-Arc-Monitoring",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/triab/providers/Microsoft.Authorization/policyAssignments/Deploy-LX-Arc-Monitoring",
+        "Properties": {
+          "Description": "Deploy-Linux-Arc-Monitoring",
+          "DisplayName": "Deploy-Linux-Arc-Monitoring",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/triab-mgmt/providers/microsoft.operationalinsights/workspaces/triab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9d2b61b4-1d14-4a63-be30-d4498e7ad2cf",
+          "Scope": "/providers/Microsoft.Management/managementGroups/triab"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/triab/providers/Microsoft.Authorization/policyAssignments/Deploy-LX-Arc-Monitoring",
+        "ResourceName": "Deploy-LX-Arc-Monitoring",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

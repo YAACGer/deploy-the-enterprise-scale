@@ -1,0 +1,35 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_koreacentral",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_koreacentral",
+        "Identity": null,
+        "Kind": null,
+        "Location": "koreacentral",
+        "ManagedBy": null,
+        "ResourceName": "NetworkWatcher_koreacentral",
+        "Name": "NetworkWatcher_koreacentral",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "runningOperationIds": []
+        },
+        "ResourceGroupName": "NetworkWatcherRG",
+        "Type": "Microsoft.Network/networkWatchers",
+        "ResourceType": "Microsoft.Network/networkWatchers",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"cef7cad1-9923-4965-87ff-71d6dff9ddb6\""
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "f5350320-ed41-4e85-a6e2-ec5d9bedec82",
+          "tenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-Resource-Diag",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/myiab/providers/Microsoft.Authorization/policyAssignments/Deploy-Resource-Diag",
+        "Properties": {
+          "Description": "Deploy-Resource-Diag",
+          "DisplayName": "Deploy-Resource-Diag",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/myiab-mgmt/providers/microsoft.operationalinsights/workspaces/myiab-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/myiab/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Diag-LogAnalytics",
+          "Scope": "/providers/Microsoft.Management/managementGroups/myiab"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/myiab/providers/Microsoft.Authorization/policyAssignments/Deploy-Resource-Diag",
+        "ResourceName": "Deploy-Resource-Diag",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

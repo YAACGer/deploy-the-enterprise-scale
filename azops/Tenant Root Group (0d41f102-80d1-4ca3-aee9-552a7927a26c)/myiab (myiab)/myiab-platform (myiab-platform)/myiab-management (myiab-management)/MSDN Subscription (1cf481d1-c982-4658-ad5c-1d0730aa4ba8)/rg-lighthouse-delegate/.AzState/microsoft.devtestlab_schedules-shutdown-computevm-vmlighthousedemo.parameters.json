@@ -1,0 +1,48 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/rg-lighthouse-delegate/providers/microsoft.devtestlab/schedules/shutdown-computevm-vmlighthousedemo",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/rg-lighthouse-delegate/providers/microsoft.devtestlab/schedules/shutdown-computevm-vmlighthousedemo",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "shutdown-computevm-vmlighthousedemo",
+        "Name": "shutdown-computevm-vmlighthousedemo",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "status": "Enabled",
+          "taskType": "ComputeVmShutdownTask",
+          "dailyRecurrence": {
+            "time": "1900"
+          },
+          "timeZoneId": "UTC",
+          "notificationSettings": {
+            "status": "Disabled",
+            "timeInMinutes": 30,
+            "notificationLocale": "en"
+          },
+          "createdDate": "2020-12-16T13:02:22.8433699+00:00",
+          "targetResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Compute/virtualMachines/vmlighthousedemo",
+          "provisioningState": "Succeeded",
+          "uniqueIdentifier": "50ff551d-9f8b-40eb-8386-61d5e6cd2cbc"
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "microsoft.devtestlab/schedules",
+        "ResourceType": "microsoft.devtestlab/schedules",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/myiab",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "myiab",
+        "TenantId": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "DisplayName": "myiab",
+        "UpdatedTime": "2021-02-11T08:27:45.8985477Z",
+        "UpdatedBy": "69839e9d-2f7e-408f-8e43-8789830b8aa8",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "ParentName": "0d41f102-80d1-4ca3-aee9-552a7927a26c",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-sandboxes",
+            "Name": "myiab-sandboxes",
+            "DisplayName": "myiab-sandboxes",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-landingzones",
+            "Name": "myiab-landingzones",
+            "DisplayName": "myiab-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-decommissioned",
+            "Name": "myiab-decommissioned",
+            "DisplayName": "myiab-decommissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/myiab-platform",
+            "Name": "myiab-platform",
+            "DisplayName": "myiab-platform",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

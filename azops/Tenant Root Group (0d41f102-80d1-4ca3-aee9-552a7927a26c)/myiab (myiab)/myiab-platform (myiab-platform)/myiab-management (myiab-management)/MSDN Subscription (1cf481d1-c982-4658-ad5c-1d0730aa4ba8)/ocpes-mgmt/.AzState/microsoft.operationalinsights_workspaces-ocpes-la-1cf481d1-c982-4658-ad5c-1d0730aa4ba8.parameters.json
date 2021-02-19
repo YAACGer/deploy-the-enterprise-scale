@@ -1,0 +1,56 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/ocpes-mgmt/providers/microsoft.operationalinsights/workspaces/ocpes-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourcegroups/ocpes-mgmt/providers/microsoft.operationalinsights/workspaces/ocpes-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Identity": null,
+        "Kind": null,
+        "Location": "northeurope",
+        "ManagedBy": null,
+        "ResourceName": "OCPES-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "Name": "OCPES-la-1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "source": "Azure",
+          "customerId": "c12eff2d-f583-4d79-a4d4-b34c453c2692",
+          "provisioningState": "Succeeded",
+          "sku": {
+            "name": "pernode",
+            "maxCapacityReservationLevel": 3000,
+            "lastSkuUpdate": "Mon, 10 Aug 2020 18:44:38 GMT"
+          },
+          "retentionInDays": 31,
+          "features": {
+            "legacy": 0,
+            "searchVersion": 1,
+            "enableLogAccessUsingOnlyResourcePermissions": true
+          },
+          "workspaceCapping": {
+            "dailyQuotaGb": -1.0,
+            "quotaNextResetTime": "Fri, 19 Feb 2021 14:00:00 GMT",
+            "dataIngestionStatus": "RespectQuota"
+          },
+          "publicNetworkAccessForIngestion": "Enabled",
+          "publicNetworkAccessForQuery": "Enabled",
+          "createdDate": "Mon, 10 Aug 2020 18:44:38 GMT",
+          "modifiedDate": "Thu, 28 Jan 2021 14:43:43 GMT"
+        },
+        "ResourceGroupName": "ocpes-mgmt",
+        "Type": "microsoft.operationalinsights/workspaces",
+        "ResourceType": "microsoft.operationalinsights/workspaces",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

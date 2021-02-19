@@ -1,0 +1,84 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Compute/virtualMachines/vmlighthousedemo",
+        "Id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Compute/virtualMachines/vmlighthousedemo",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vmlighthousedemo",
+        "Name": "vmlighthousedemo",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "vmId": "6e31a57d-fd84-4a90-ad0c-20bc4839ab6d",
+          "hardwareProfile": {
+            "vmSize": "Standard_B1s"
+          },
+          "storageProfile": {
+            "imageReference": {
+              "publisher": "MicrosoftWindowsServer",
+              "offer": "WindowsServer",
+              "sku": "2016-Datacenter",
+              "version": "latest",
+              "exactVersion": "14393.4104.2012040817"
+            },
+            "osDisk": {
+              "osType": "Windows",
+              "name": "vmlighthousedemo_OsDisk_1_3a77cb1e78d04ef8a8f2b83f4434e886",
+              "createOption": "FromImage",
+              "caching": "ReadWrite",
+              "managedDisk": {
+                "id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Compute/disks/vmlighthousedemo_OsDisk_1_3a77cb1e78d04ef8a8f2b83f4434e886"
+              }
+            },
+            "dataDisks": []
+          },
+          "osProfile": {
+            "computerName": "vmlighthousedem",
+            "adminUsername": "noadmin",
+            "windowsConfiguration": {
+              "provisionVMAgent": true,
+              "enableAutomaticUpdates": true,
+              "patchSettings": {
+                "patchMode": "AutomaticByOS"
+              }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+          },
+          "networkProfile": {
+            "networkInterfaces": [
+              {
+                "id": "/subscriptions/1cf481d1-c982-4658-ad5c-1d0730aa4ba8/resourceGroups/rg-lighthouse-delegate/providers/Microsoft.Network/networkInterfaces/vmlighthousedemo720"
+              }
+            ]
+          },
+          "diagnosticsProfile": {
+            "bootDiagnostics": {
+              "enabled": true
+            }
+          },
+          "licenseType": "Windows_Server",
+          "provisioningState": "Succeeded"
+        },
+        "ResourceGroupName": "rg-lighthouse-delegate",
+        "Type": "Microsoft.Compute/virtualMachines",
+        "ResourceType": "Microsoft.Compute/virtualMachines",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "1cf481d1-c982-4658-ad5c-1d0730aa4ba8",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
