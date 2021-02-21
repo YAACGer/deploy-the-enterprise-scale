@@ -38,7 +38,7 @@
           "publicNetworkAccessForIngestion": "Enabled",
           "publicNetworkAccessForQuery": "Enabled",
           "createdDate": "Wed, 24 Jun 2020 16:24:26 GMT",
-          "modifiedDate": "Tue, 01 Dec 2020 17:27:44 GMT"
+          "modifiedDate": "Sun, 21 Feb 2021 08:35:42 GMT"
         },
         "ResourceGroupName": "rg-yaac-management",
         "Type": "microsoft.operationalinsights/workspaces",

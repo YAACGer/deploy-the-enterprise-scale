@@ -32,13 +32,13 @@
           },
           "workspaceCapping": {
             "dailyQuotaGb": -1.0,
-            "quotaNextResetTime": "Sun, 21 Feb 2021 09:00:00 GMT",
+            "quotaNextResetTime": "Mon, 22 Feb 2021 09:00:00 GMT",
             "dataIngestionStatus": "RespectQuota"
           },
           "publicNetworkAccessForIngestion": "Enabled",
           "publicNetworkAccessForQuery": "Enabled",
           "createdDate": "Thu, 29 Oct 2020 12:38:29 GMT",
-          "modifiedDate": "Tue, 01 Dec 2020 17:41:38 GMT"
+          "modifiedDate": "Sun, 21 Feb 2021 08:54:06 GMT"
         },
         "ResourceGroupName": "defaultresourcegroup-weu",
         "Type": "microsoft.operationalinsights/workspaces",
