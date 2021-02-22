@@ -4,8 +4,8 @@
   "parameters": {
     "input": {
       "value": {
-        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4/extensions/MicrosoftMonitoringAgent",
-        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4/extensions/MicrosoftMonitoringAgent",
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/MicrosoftMonitoringAgent",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/MicrosoftMonitoringAgent",
         "Identity": null,
         "Kind": null,
         "Location": "westeurope",

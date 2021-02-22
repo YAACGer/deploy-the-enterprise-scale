@@ -1,0 +1,47 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/Updates(log-yaac-analyticsworkspace)",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationsManagement/solutions/Updates(log-yaac-analyticsworkspace)",
+        "Identity": null,
+        "Kind": null,
+        "Location": "West Europe",
+        "ManagedBy": null,
+        "ResourceName": "Updates(log-yaac-analyticsworkspace)",
+        "Name": "Updates(log-yaac-analyticsworkspace)",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": {
+          "Name": "Updates(log-yaac-analyticsworkspace)",
+          "Publisher": "Microsoft",
+          "Product": "OMSGallery/Updates",
+          "PromotionCode": "",
+          "Version": null
+        },
+        "Properties": {
+          "workspaceResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace",
+          "provisioningState": "Succeeded",
+          "creationTime": "Mon, 22 Feb 2021 12:33:51 GMT",
+          "lastModifiedTime": "Mon, 22 Feb 2021 12:42:08 GMT",
+          "containedResources": [
+            "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace/views/Updates(log-yaac-analyticsworkspace)"
+          ],
+          "configurations": []
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.OperationsManagement/solutions",
+        "ResourceType": "Microsoft.OperationsManagement/solutions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
