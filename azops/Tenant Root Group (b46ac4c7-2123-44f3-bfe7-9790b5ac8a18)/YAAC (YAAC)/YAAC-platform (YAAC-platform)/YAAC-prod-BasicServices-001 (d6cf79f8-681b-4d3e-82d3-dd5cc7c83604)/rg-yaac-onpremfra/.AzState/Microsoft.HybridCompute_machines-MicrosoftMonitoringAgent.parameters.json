@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4/extensions/MicrosoftMonitoringAgent",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4/extensions/MicrosoftMonitoringAgent",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "MicrosoftMonitoringAgent",
+        "Name": "MicrosoftMonitoringAgent",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "publisher": "Microsoft.EnterpriseCloud.Monitoring",
+          "type": "MicrosoftMonitoringAgent",
+          "typeHandlerVersion": "1.0.18053.0",
+          "autoUpgradeMinorVersion": false,
+          "settings": {
+            "workspaceId": "b218e9f1-dbb0-4840-bbcd-8d61c9d854a4"
+          },
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "MicrosoftMonitoringAgent",
+            "type": "MicrosoftMonitoringAgent",
+            "typeHandlerVersion": "1.0.18053.0",
+            "status": {
+              "code": "success",
+              "level": "Information",
+              "message": "Extension Message: Latest configuration has been applied to the Microsoft Monitoring Agent."
+            }
+          }
+        },
+        "ResourceGroupName": "rg-yaac-onpremfra",
+        "Type": "Microsoft.HybridCompute/machines/extensions",
+        "ResourceType": "Microsoft.HybridCompute/machines/extensions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

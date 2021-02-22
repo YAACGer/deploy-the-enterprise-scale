@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/e08d0e35-227b-41a6-90fd-614b3e8f3b5f",
+        "Name": "e08d0e35-227b-41a6-90fd-614b3e8f3b5f",
+        "properties": {
+          "DisplayName": "yaacarc",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "2c650412-715a-4cd5-bf7f-382619bc31c7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

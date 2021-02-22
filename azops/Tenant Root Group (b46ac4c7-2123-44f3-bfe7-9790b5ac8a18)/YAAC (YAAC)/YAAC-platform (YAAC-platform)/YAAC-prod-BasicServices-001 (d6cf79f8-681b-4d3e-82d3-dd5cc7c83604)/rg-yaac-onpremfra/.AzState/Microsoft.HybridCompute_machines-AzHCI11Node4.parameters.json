@@ -1,0 +1,57 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/AzHCI11Node4",
+        "Identity": {
+          "PrincipalId": "0c3fff0a-1f19-4525-9e6c-b0f69cdc42ec",
+          "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "Type": "SystemAssigned",
+          "UserAssignedIdentities": null
+        },
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "AzHCI11Node4",
+        "Name": "AzHCI11Node4",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "agentVersion": "1.3.20346.001",
+          "status": "Connected",
+          "lastStatusChange": "2021-02-22T12:26:45.6720228Z",
+          "errorDetails": [],
+          "displayName": "AzHCI11Node4",
+          "machineFqdn": "AzHCI11Node4",
+          "osName": "windows",
+          "osVersion": "10.0.17784.1466",
+          "osProfile": {
+            "computerName": "AzHCI11Node4"
+          },
+          "vmId": "062fae52-3dd0-49c0-8587-8f214840b049",
+          "vmUuid": "2CF92F64-959C-4547-9077-3ABDFBC14D16",
+          "clientPublicKey": "MIIBCgKCAQEArXQwm+SW63yuuA5AGw1ea+t/CTVYqIYmycrcWBJfV6FDlgq3bFNyz1d1RTFxoJa34NNqhhQZZD3XIcnrMrT2S5DHfsO8F8VdsHkKHfEIbIA6MaJqLGZxDBXaQJDvIR2nPIRbADSpjFJ7iMQ48q5Naaj9nTR394M8mG31yT+yoN/UKr7W11FxlfxEQBuPr1R0FC5fz6JdTrGereoEnaqw+VW8l8sUWuVQ6/fzSagbas9vTVlhtm7II9Iuz5BzNmIKCPigeuox+czlODCKKWo0U2kspJ23AmLHNDgl7hMUXDaMONKouHp6/XVSiFiKUesGn/jiWCaOZzXeCFFZWNcRiwIDAQAB",
+          "osSku": "Azure Stack HCI",
+          "domainName": "hybrid.gbb",
+          "adFqdn": "AzHCI11Node4.hybrid.gbb",
+          "dnsFqdn": "hybrid.gbb.AzHCI11Node4"
+        },
+        "ResourceGroupName": "rg-yaac-onpremfra",
+        "Type": "Microsoft.HybridCompute/machines",
+        "ResourceType": "Microsoft.HybridCompute/machines",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C",
+        "Identity": {
+          "PrincipalId": "f0438540-b936-45c7-acc2-0906ff4c6881",
+          "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "Type": "SystemAssigned",
+          "UserAssignedIdentities": null
+        },
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "WIN-7V708F05C9C",
+        "Name": "WIN-7V708F05C9C",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "agentVersion": "1.3.20346.001",
+          "status": "Connected",
+          "lastStatusChange": "2021-02-22T12:17:23.7377982Z",
+          "errorDetails": [],
+          "displayName": "VMOne",
+          "machineFqdn": "VMOne",
+          "osName": "windows",
+          "osVersion": "10.0.17763.1757",
+          "osProfile": {
+            "computerName": "VMOne"
+          },
+          "vmId": "6bc82ee7-9abf-4e13-b7c9-515e6f136c7e",
+          "vmUuid": "FAB19039-B678-4B7A-BFC8-4E69AAE95334",
+          "clientPublicKey": "MIIBCgKCAQEAo7sgQMCl9Fc88Zu6Q7cultlQG3KPj2T2YbNtZX56wk8qJ83mNa80uFtgg6qQHm/xq9bpb1YbLszkyjSBnFJfMjBl8Zl7+AC0NVxAdrLv6EqmCjmBol9ariCYQT3e5AFd6oG+cgAoil3bSJsuZjvFXORTCRrMx3Mz4W8HYhMc9J2fj0Q+hwWkZLJGGQWG5IjJvgU6zOzPFSKsr9xgExhaCyDGUngpn0p/ukTNJzbfPWjpunQQE4t+xCOVoqZ/LRZHpBlUiXEQcnF4WA/b23DXZzL+LiZw2hPVxj3WMLSJTKvIefejw1lamxCJnWlJfECNsfkPL8+vEWhymcFOBP8Z0QIDAQAB",
+          "osSku": "Windows Server 2019 Standard Evaluation",
+          "domainName": "WORKGROUP",
+          "adFqdn": "VMOne",
+          "dnsFqdn": "VMOne"
+        },
+        "ResourceGroupName": "rg-yaac-onpremfra",
+        "Type": "Microsoft.HybridCompute/machines",
+        "ResourceType": "Microsoft.HybridCompute/machines",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
