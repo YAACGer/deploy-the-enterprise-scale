@@ -1,0 +1,49 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/DependencyAgentWindows",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/DependencyAgentWindows",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "DependencyAgentWindows",
+        "Name": "DependencyAgentWindows",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "publisher": "Microsoft.Azure.Monitoring.DependencyAgent",
+          "type": "DependencyAgentWindows",
+          "typeHandlerVersion": "9.10.7.12710",
+          "autoUpgradeMinorVersion": false,
+          "settings": {},
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "DependencyAgentWindows",
+            "type": "DependencyAgentWindows",
+            "typeHandlerVersion": "9.10.7.12710",
+            "status": {
+              "code": "success",
+              "level": "Information",
+              "message": ""
+            }
+          }
+        },
+        "ResourceGroupName": "rg-yaac-onpremfra",
+        "Type": "Microsoft.HybridCompute/machines/extensions",
+        "ResourceType": "Microsoft.HybridCompute/machines/extensions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

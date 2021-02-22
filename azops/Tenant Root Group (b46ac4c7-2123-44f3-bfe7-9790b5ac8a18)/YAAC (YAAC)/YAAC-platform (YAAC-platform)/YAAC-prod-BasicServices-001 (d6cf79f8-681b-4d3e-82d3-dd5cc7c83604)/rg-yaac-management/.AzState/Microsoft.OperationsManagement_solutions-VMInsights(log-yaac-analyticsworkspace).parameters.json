@@ -25,7 +25,7 @@
           "workspaceResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/Microsoft.OperationalInsights/workspaces/log-yaac-analyticsworkspace",
           "provisioningState": "Succeeded",
           "creationTime": "Thu, 29 Oct 2020 13:12:30 GMT",
-          "lastModifiedTime": "Thu, 29 Oct 2020 13:12:30 GMT",
+          "lastModifiedTime": "Mon, 22 Feb 2021 11:56:05 GMT",
           "containedResources": [],
           "workbookTemplates": []
         },

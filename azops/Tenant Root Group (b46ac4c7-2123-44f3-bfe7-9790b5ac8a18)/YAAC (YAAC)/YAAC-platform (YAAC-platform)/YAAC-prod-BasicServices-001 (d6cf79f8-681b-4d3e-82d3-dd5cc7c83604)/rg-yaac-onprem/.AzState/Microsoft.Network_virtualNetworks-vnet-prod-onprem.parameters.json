@@ -45,7 +45,8 @@
           ],
           "virtualNetworkPeerings": [],
           "enableDdosProtection": false,
-          "enableVmProtection": false
+          "enableVmProtection": false,
+          "vmProtectionFlagHasChanged": false
         },
         "ResourceGroupName": "rg-yaac-onprem",
         "Type": "Microsoft.Network/virtualNetworks",
