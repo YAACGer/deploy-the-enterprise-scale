@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/providers/Microsoft.Authorization/roleAssignments/96898a19-090d-4cbf-aa30-456577f15653",
+        "Name": "96898a19-090d-4cbf-aa30-456577f15653",
+        "properties": {
+          "DisplayName": "aa-yaac-updatemgmt_1yheT0MZsHl31RoNaQxR++VTW0YEfqW+a1RwGoV8wkY=",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "28db951c-c738-4ad5-8371-5ebc078e9ffd",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

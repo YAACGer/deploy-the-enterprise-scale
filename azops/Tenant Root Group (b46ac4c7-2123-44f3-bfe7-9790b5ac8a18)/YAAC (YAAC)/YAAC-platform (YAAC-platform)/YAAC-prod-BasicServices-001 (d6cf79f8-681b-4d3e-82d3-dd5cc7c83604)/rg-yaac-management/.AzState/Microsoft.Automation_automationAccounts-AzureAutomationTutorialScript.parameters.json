@@ -1,0 +1,47 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.Automation/automationAccounts/aa-yaac-updatemgmt/runbooks/AzureAutomationTutorialScript",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-management/providers/Microsoft.Automation/automationAccounts/aa-yaac-updatemgmt/runbooks/AzureAutomationTutorialScript",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "AzureAutomationTutorialScript",
+        "Name": "AzureAutomationTutorialScript",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "description": " An example runbook which gets all the ARM resources using the Run As Account (Service Principal).",
+          "logVerbose": false,
+          "logProgress": false,
+          "logActivityTrace": 0,
+          "runbookType": "PowerShell",
+          "parameters": {},
+          "state": "Published",
+          "jobCount": 0,
+          "provisioningState": "Succeeded",
+          "serviceManagementTags": null,
+          "outputTypes": [],
+          "creationTime": "2021-02-22T12:30:51.477+00:00",
+          "lastModifiedBy": null,
+          "lastModifiedTime": "2021-02-22T12:30:51.48+00:00"
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "Microsoft.Automation/automationAccounts/runbooks",
+        "ResourceType": "Microsoft.Automation/automationAccounts/runbooks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {},
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "\"637495938514800000\""
+      }
+    }
+  }
+}

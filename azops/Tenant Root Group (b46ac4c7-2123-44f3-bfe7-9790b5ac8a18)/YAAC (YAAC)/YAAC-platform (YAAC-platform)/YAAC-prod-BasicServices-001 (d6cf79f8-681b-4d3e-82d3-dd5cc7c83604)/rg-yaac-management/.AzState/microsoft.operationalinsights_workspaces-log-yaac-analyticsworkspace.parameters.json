@@ -32,13 +32,13 @@
           },
           "workspaceCapping": {
             "dailyQuotaGb": -1.0,
-            "quotaNextResetTime": "Mon, 22 Feb 2021 16:00:00 GMT",
+            "quotaNextResetTime": "Tue, 23 Feb 2021 16:00:00 GMT",
             "dataIngestionStatus": "RespectQuota"
           },
           "publicNetworkAccessForIngestion": "Enabled",
           "publicNetworkAccessForQuery": "Enabled",
           "createdDate": "Wed, 24 Jun 2020 16:24:26 GMT",
-          "modifiedDate": "Sun, 21 Feb 2021 08:35:42 GMT"
+          "modifiedDate": "Mon, 22 Feb 2021 12:34:43 GMT"
         },
         "ResourceGroupName": "rg-yaac-management",
         "Type": "microsoft.operationalinsights/workspaces",
