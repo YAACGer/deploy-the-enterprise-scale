@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/MDE.Windows",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C/extensions/MDE.Windows",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "MDE.Windows",
+        "Name": "MDE.Windows",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "publisher": "Microsoft.Azure.AzureDefenderForServers",
+          "type": "MDE.Windows",
+          "typeHandlerVersion": "1.0.0.4",
+          "autoUpgradeMinorVersion": false,
+          "settings": {
+            "defenderForServersWorkspaceId": "b218e9f1-dbb0-4840-bbcd-8d61c9d854a4"
+          },
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "MDE.Windows",
+            "type": "MDE.Windows",
+            "typeHandlerVersion": "1.0.0.4",
+            "status": {
+              "code": "success",
+              "level": "Information",
+              "message": "Extension Message: {\r\n    \"azureResourceId\":  \"/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/rg-yaac-onpremfra/providers/Microsoft.HybridCompute/machines/WIN-7V708F05C9C\",\r\n    \"securityWorkspaceId\":  \"b218e9f1-dbb0-4840-bbcd-8d61c9d854a4\",\r\n    \"osDetails\":  {\r\n                      \"osMetadata\":  {\r\n                                         \"majorVersion\":  10,\r\n                                         \"buildVersion\":  17763,\r\n                                         \"productType\":  3,\r\n                                         \"operatingSystemSku\":  79\r\n                                     },\r\n                      \"osName\":  \"Microsoft Windows Server 2019 Standard Evaluation\"\r\n                  },\r\n    \"onboardingPackageOperationResultCode\":  \"Success\"\r\n}"
+            }
+          }
+        },
+        "ResourceGroupName": "rg-yaac-onpremfra",
+        "Type": "Microsoft.HybridCompute/machines/extensions",
+        "ResourceType": "Microsoft.HybridCompute/machines/extensions",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
