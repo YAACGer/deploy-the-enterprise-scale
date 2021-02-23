@@ -1,0 +1,75 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.KeyVault/vaults/kv-YAAC-WVD-prod-01",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.KeyVault/vaults/kv-YAAC-WVD-prod-01",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "kv-YAAC-WVD-prod-01",
+        "Name": "kv-YAAC-WVD-prod-01",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "sku": {
+            "family": "A",
+            "name": "standard"
+          },
+          "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "accessPolicies": [
+            {
+              "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+              "objectId": "a17ab816-fd9a-4fc0-808a-3059c8ac5719",
+              "permissions": {
+                "keys": [
+                  "Get"
+                ],
+                "secrets": [
+                  "List",
+                  "Get",
+                  "Set"
+                ]
+              }
+            },
+            {
+              "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+              "objectId": "260ac6e2-f1e3-466e-84d6-6a1aba844b5b",
+              "permissions": {
+                "keys": [
+                  "Get"
+                ],
+                "secrets": [
+                  "List",
+                  "Get",
+                  "Set"
+                ]
+              }
+            }
+          ],
+          "enabledForDeployment": true,
+          "enabledForDiskEncryption": true,
+          "enabledForTemplateDeployment": true,
+          "vaultUri": "https://kv-yaac-wvd-prod-01.vault.azure.net/",
+          "provisioningState": "Succeeded"
+        },
+        "ResourceGroupName": "rg-WVD-shared-prod",
+        "Type": "Microsoft.KeyVault/vaults",
+        "ResourceType": "Microsoft.KeyVault/vaults",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {
+          "displayName": "kv-YAAC-WVD-prod"
+        },
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}

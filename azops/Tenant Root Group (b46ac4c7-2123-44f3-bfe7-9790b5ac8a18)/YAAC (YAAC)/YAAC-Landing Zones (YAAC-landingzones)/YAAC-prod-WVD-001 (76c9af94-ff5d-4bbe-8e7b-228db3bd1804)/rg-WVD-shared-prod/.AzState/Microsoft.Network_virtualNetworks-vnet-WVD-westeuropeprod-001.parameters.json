@@ -1,0 +1,77 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "vnet-WVD-westeuropeprod-001",
+        "Name": "vnet-WVD-westeuropeprod-001",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "825b0c23-a71d-4b0a-afab-5a24b021f1b5",
+          "addressSpace": {
+            "addressPrefixes": [
+              "10.10.0.0/16"
+            ]
+          },
+          "subnets": [
+            {
+              "name": "snet-WVD-hostpool-prod-001",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001/subnets/snet-WVD-hostpool-prod-001",
+              "etag": "W/\"de666d58-56fc-4e89-8cd0-1d69169a8b7f\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.10.1.0/24",
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+              "name": "snet-WVD-backend-prod-001",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001/subnets/snet-WVD-backend-prod-001",
+              "etag": "W/\"de666d58-56fc-4e89-8cd0-1d69169a8b7f\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.10.2.0/24",
+                "ipConfigurations": [
+                  {
+                    "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/networkInterfaces/nic-01-VMAPP01-prod-001/ipConfigurations/ipConfig1"
+                  }
+                ],
+                "delegations": [],
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false
+        },
+        "ResourceGroupName": "rg-WVD-shared-prod",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {
+          "displayName": "vnet-WVD-westeuropeprod"
+        },
+        "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"de666d58-56fc-4e89-8cd0-1d69169a8b7f\""
+      }
+    }
+  }
+}

@@ -4,30 +4,34 @@
   "parameters": {
     "input": {
       "value": {
-        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/publicIPAddresses/VM0101-ip",
-        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/publicIPAddresses/VM0101-ip",
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/publicIPAddresses/VMAPP01-PublicIP",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/publicIPAddresses/VMAPP01-PublicIP",
         "Identity": null,
         "Kind": null,
         "Location": "westeurope",
         "ManagedBy": null,
-        "ResourceName": "VM0101-ip",
-        "Name": "VM0101-ip",
+        "ResourceName": "VMAPP01-PublicIP",
+        "Name": "VMAPP01-PublicIP",
         "ExtensionResourceName": null,
         "ParentResource": null,
         "Plan": null,
         "Properties": {
           "provisioningState": "Succeeded",
-          "resourceGuid": "1fda2467-8477-48b0-8970-c0270494b274",
-          "ipAddress": "20.71.201.233",
+          "resourceGuid": "7f818dc9-d779-47e6-9fd5-5f23b1782024",
+          "ipAddress": "52.232.66.136",
           "publicIPAddressVersion": "IPv4",
           "publicIPAllocationMethod": "Dynamic",
           "idleTimeoutInMinutes": 4,
+          "dnsSettings": {
+            "domainNameLabel": "vmapp01",
+            "fqdn": "vmapp01.westeurope.cloudapp.azure.com"
+          },
           "ipTags": [],
           "ipConfiguration": {
-            "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkInterfaces/vm0101618/ipConfigurations/ipconfig1"
+            "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/networkInterfaces/nic-01-VMAPP01-prod-001/ipConfigurations/ipConfig1"
           }
         },
-        "ResourceGroupName": "rg-demo-vs",
+        "ResourceGroupName": "rg-WVD-backend-prod",
         "Type": "Microsoft.Network/publicIPAddresses",
         "ResourceType": "Microsoft.Network/publicIPAddresses",
         "ExtensionResourceType": null,
@@ -39,11 +43,13 @@
           "Model": null,
           "Capacity": null
         },
-        "Tags": null,
+        "Tags": {
+          "displayName": "PublicIPAddress"
+        },
         "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
         "CreatedTime": null,
         "ChangedTime": null,
-        "ETag": "W/\"18e02d62-0ace-4575-b2f5-968375ac9173\""
+        "ETag": "W/\"5bb45838-ddd3-482c-bb11-57b53c1b498f\""
       }
     }
   }
