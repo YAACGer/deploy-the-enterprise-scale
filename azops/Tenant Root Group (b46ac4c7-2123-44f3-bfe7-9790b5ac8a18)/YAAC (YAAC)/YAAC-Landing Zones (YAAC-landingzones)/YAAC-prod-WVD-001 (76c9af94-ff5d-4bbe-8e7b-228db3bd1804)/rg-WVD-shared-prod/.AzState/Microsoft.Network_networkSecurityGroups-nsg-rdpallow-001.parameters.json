@@ -4,35 +4,36 @@
   "parameters": {
     "input": {
       "value": {
-        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg",
-        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg",
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001",
+        "Id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001",
         "Identity": null,
         "Kind": null,
         "Location": "westeurope",
         "ManagedBy": null,
-        "ResourceName": "VM0101-nsg",
-        "Name": "VM0101-nsg",
+        "ResourceName": "nsg-rdpallow-001",
+        "Name": "nsg-rdpallow-001",
         "ExtensionResourceName": null,
         "ParentResource": null,
         "Plan": null,
         "Properties": {
           "provisioningState": "Succeeded",
-          "resourceGuid": "8562326d-2afc-4c57-9df0-88064475aad5",
+          "resourceGuid": "b54250c5-caaf-4767-85f2-bd828bcc5496",
           "securityRules": [
             {
-              "name": "RDP",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/securityRules/RDP",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "name": "nsgRDPRule",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/securityRules/nsgRDPRule",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/securityRules",
               "properties": {
                 "provisioningState": "Succeeded",
-                "protocol": "TCP",
+                "description": "description",
+                "protocol": "Tcp",
                 "sourcePortRange": "*",
                 "destinationPortRange": "3389",
                 "sourceAddressPrefix": "*",
                 "destinationAddressPrefix": "*",
-                "access": "Allow",
-                "priority": 300,
+                "access": "Deny",
+                "priority": 100,
                 "direction": "Inbound",
                 "sourcePortRanges": [],
                 "destinationPortRanges": [],
@@ -44,8 +45,8 @@
           "defaultSecurityRules": [
             {
               "name": "AllowVnetInBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/AllowVnetInBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/AllowVnetInBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -66,8 +67,8 @@
             },
             {
               "name": "AllowAzureLoadBalancerInBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/AllowAzureLoadBalancerInBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/AllowAzureLoadBalancerInBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -88,8 +89,8 @@
             },
             {
               "name": "DenyAllInBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/DenyAllInBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/DenyAllInBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -110,8 +111,8 @@
             },
             {
               "name": "AllowVnetOutBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/AllowVnetOutBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/AllowVnetOutBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -132,8 +133,8 @@
             },
             {
               "name": "AllowInternetOutBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/AllowInternetOutBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/AllowInternetOutBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -154,8 +155,8 @@
             },
             {
               "name": "DenyAllOutBound",
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkSecurityGroups/VM0101-nsg/defaultSecurityRules/DenyAllOutBound",
-              "etag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\"",
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-rdpallow-001/defaultSecurityRules/DenyAllOutBound",
+              "etag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\"",
               "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
               "properties": {
                 "provisioningState": "Succeeded",
@@ -177,11 +178,11 @@
           ],
           "networkInterfaces": [
             {
-              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-vs/providers/Microsoft.Network/networkInterfaces/vm0101618"
+              "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/networkInterfaces/nic-01-VMAPP01-prod-001"
             }
           ]
         },
-        "ResourceGroupName": "rg-demo-vs",
+        "ResourceGroupName": "rg-WVD-shared-prod",
         "Type": "Microsoft.Network/networkSecurityGroups",
         "ResourceType": "Microsoft.Network/networkSecurityGroups",
         "ExtensionResourceType": null,
@@ -190,7 +191,7 @@
         "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
         "CreatedTime": null,
         "ChangedTime": null,
-        "ETag": "W/\"ed9bdb1a-331e-465c-ad82-514c0312f28b\""
+        "ETag": "W/\"df1cf582-f3bc-4089-b8b0-0659ad9eacd6\""
       }
     }
   }
