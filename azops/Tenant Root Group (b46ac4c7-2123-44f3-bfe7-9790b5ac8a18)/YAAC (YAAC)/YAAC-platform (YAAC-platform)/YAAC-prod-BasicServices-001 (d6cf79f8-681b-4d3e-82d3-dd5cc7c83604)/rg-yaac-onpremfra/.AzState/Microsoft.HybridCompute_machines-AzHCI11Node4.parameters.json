@@ -24,7 +24,7 @@
           "provisioningState": "Succeeded",
           "agentVersion": "1.3.20346.001",
           "status": "Connected",
-          "lastStatusChange": "2021-03-02T00:09:06.1800298Z",
+          "lastStatusChange": "2021-03-02T05:39:30.8853949Z",
           "errorDetails": [],
           "displayName": "AzHCI11Node4",
           "machineFqdn": "AzHCI11Node4",
