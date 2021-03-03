@@ -1,0 +1,49 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/microsoft.insights/workbooks/57e17e4d-3c10-4ef9-812a-3a8ea31cb1da",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/microsoft.insights/workbooks/57e17e4d-3c10-4ef9-812a-3a8ea31cb1da",
+        "Identity": {
+          "PrincipalId": null,
+          "TenantId": null,
+          "Type": "None",
+          "UserAssignedIdentities": null
+        },
+        "Kind": "shared",
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "57e17e4d-3c10-4ef9-812a-3a8ea31cb1da",
+        "Name": "57e17e4d-3c10-4ef9-812a-3a8ea31cb1da",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "displayName": "YAAC Log Analytics Agent Health",
+          "serializedData": null,
+          "version": "Notebook/1.0",
+          "category": "workbook",
+          "userId": "e635c865-e790-4c89-a410-a7f69e547913",
+          "sourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-management/providers/microsoft.operationalinsights/workspaces/log-yaac-analyticsworkspace",
+          "timeModified": "2021-03-03T13:16:24.0089348Z",
+          "tags": [],
+          "storageUri": null
+        },
+        "ResourceGroupName": "rg-yaac-management",
+        "Type": "microsoft.insights/workbooks",
+        "ResourceType": "microsoft.insights/workbooks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": {
+          "hidden-title": "YAAC Log Analytics Agent Health"
+        },
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "\"f603b9e3-0000-0200-0000-603f8c280000\""
+      }
+    }
+  }
+}
