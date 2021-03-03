@@ -18,7 +18,7 @@
         "Properties": {
           "vmId": "a0aaebcd-cedf-4d7b-841d-e7bd2112f345",
           "hardwareProfile": {
-            "vmSize": "Standard_D4_v3"
+            "vmSize": "Standard_D2_v3"
           },
           "storageProfile": {
             "imageReference": {
