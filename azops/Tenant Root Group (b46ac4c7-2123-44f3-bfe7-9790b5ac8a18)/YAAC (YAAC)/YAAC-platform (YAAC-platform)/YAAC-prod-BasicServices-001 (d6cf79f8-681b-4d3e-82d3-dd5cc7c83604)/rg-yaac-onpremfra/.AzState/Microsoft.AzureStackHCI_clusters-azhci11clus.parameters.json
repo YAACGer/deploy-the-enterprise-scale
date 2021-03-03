@@ -71,13 +71,13 @@
                 "memoryInGiB": 16
               }
             ],
-            "lastUpdated": "2021-03-01T22:59:58.6465893Z"
+            "lastUpdated": "2021-03-02T22:59:59.9837242Z"
           },
           "trialDaysRemaining": 22,
           "billingModel": "Trial",
           "registrationTimestamp": "2021-02-22T09:19:49.9160163Z",
-          "lastBillingTimestamp": "2021-03-02T11:59:43.541Z",
-          "lastSyncTimestamp": "2021-03-02T00:00:04.5432744Z"
+          "lastBillingTimestamp": "2021-03-02T23:59:58.041Z",
+          "lastSyncTimestamp": "2021-03-03T00:00:04.9982766Z"
         },
         "ResourceGroupName": "rg-yaac-onpremfra",
         "Type": "Microsoft.AzureStackHCI/clusters",
