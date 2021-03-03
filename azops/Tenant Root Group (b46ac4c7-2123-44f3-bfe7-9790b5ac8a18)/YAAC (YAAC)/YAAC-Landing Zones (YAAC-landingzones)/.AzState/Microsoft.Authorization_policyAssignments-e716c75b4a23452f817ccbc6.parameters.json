@@ -1,0 +1,40 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "3c99ee74-956d-4b17-843c-a13087cab65b",
+          "tenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "e716c75b4a23452f817ccbc6",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones/providers/Microsoft.Authorization/policyAssignments/e716c75b4a23452f817ccbc6",
+        "Properties": {
+          "Description": "Deploy LA configuration",
+          "DisplayName": "Deploy-LA-Config",
+          "NotScopes": null,
+          "Parameters": {
+            "workspaceName": {
+              "value": "log-yaac-analyticsworkspace"
+            },
+            "workspaceRegion": {
+              "value": "West Europe"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/YAAC/providers/Microsoft.Authorization/policyDefinitions/Deploy-LA-Config",
+          "Scope": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones/providers/Microsoft.Authorization/policyAssignments/e716c75b4a23452f817ccbc6",
+        "ResourceName": "e716c75b4a23452f817ccbc6",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

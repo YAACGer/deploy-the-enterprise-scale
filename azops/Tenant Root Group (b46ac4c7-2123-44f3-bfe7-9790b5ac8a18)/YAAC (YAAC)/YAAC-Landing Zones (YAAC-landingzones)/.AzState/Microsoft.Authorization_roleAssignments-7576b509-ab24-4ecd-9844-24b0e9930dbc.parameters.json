@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/YAAC-landingzones/providers/Microsoft.Authorization/roleAssignments/7576b509-ab24-4ecd-9844-24b0e9930dbc",
+        "Name": "7576b509-ab24-4ecd-9844-24b0e9930dbc",
+        "properties": {
+          "DisplayName": "e716c75b4a23452f817ccbc6",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "3c99ee74-956d-4b17-843c-a13087cab65b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
