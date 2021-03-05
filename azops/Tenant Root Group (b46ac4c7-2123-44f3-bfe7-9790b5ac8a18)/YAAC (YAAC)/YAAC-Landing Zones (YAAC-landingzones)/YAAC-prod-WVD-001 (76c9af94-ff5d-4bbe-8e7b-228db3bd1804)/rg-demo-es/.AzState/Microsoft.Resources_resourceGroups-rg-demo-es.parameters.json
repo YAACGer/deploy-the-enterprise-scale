@@ -9,7 +9,10 @@
         "ProvisioningState": "Succeeded",
         "ResourceGroupName": "rg-demo-es",
         "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-demo-es",
-        "Tags": null
+        "Tags": {
+          "environment ": "prod",
+          "workload": "WVD"
+        }
       }
     }
   }

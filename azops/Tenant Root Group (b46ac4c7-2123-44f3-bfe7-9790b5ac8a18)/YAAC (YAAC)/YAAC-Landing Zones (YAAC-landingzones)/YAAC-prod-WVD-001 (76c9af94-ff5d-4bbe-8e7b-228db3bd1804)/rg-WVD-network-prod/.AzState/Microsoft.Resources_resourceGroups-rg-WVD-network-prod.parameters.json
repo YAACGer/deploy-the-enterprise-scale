@@ -7,8 +7,8 @@
         "Location": "westeurope",
         "ManagedBy": null,
         "ProvisioningState": "Succeeded",
-        "ResourceGroupName": "rg-WVD-shared-prod",
-        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod",
+        "ResourceGroupName": "rg-WVD-network-prod",
+        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-network-prod",
         "Tags": {
           "environment": "prod",
           "workload": "WVD"
