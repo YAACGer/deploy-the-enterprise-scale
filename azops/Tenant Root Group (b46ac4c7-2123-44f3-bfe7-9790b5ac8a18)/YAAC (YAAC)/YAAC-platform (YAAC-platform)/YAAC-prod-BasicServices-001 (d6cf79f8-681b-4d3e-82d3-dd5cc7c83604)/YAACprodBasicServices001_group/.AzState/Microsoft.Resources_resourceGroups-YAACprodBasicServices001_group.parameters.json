@@ -7,9 +7,9 @@
         "Location": "westeurope",
         "ManagedBy": null,
         "ProvisioningState": "Succeeded",
-        "ResourceGroupName": "rg-vscode",
-        "ResourceId": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-vscode",
-        "Tags": {}
+        "ResourceGroupName": "YAACprodBasicServices001_group",
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/YAACprodBasicServices001_group",
+        "Tags": null
       }
     }
   }

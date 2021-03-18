@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/YAACprodBasicServices001_group/providers/Microsoft.Automanage/accounts/YAACprodBasicServices001-ABP",
+        "Id": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourceGroups/YAACprodBasicServices001_group/providers/Microsoft.Automanage/accounts/YAACprodBasicServices001-ABP",
+        "Identity": {
+          "PrincipalId": "2559fd90-ecb9-408e-9f30-13078592ccc7",
+          "TenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
+          "Type": "SystemAssigned",
+          "UserAssignedIdentities": null
+        },
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "YAACprodBasicServices001-ABP",
+        "Name": "YAACprodBasicServices001-ABP",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": null,
+        "ResourceGroupName": "YAACprodBasicServices001_group",
+        "Type": "Microsoft.Automanage/accounts",
+        "ResourceType": "Microsoft.Automanage/accounts",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "d6cf79f8-681b-4d3e-82d3-dd5cc7c83604",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": null
+      }
+    }
+  }
+}
