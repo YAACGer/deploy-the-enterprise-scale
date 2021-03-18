@@ -32,7 +32,7 @@
                 "manufacturer": "Microsoft Corporation",
                 "model": "Virtual Machine",
                 "osName": "Azure Stack HCI",
-                "osVersion": "10.0.17784.1526",
+                "osVersion": "10.0.17784.1589",
                 "serialNumber": "2260-6947-4645-9461-5239-1453-70",
                 "coreCount": 2,
                 "memoryInGiB": 16
@@ -43,7 +43,7 @@
                 "manufacturer": "Microsoft Corporation",
                 "model": "Virtual Machine",
                 "osName": "Azure Stack HCI",
-                "osVersion": "10.0.17784.1526",
+                "osVersion": "10.0.17784.1589",
                 "serialNumber": "3500-3951-0161-1460-5974-8486-76",
                 "coreCount": 2,
                 "memoryInGiB": 16
@@ -54,7 +54,7 @@
                 "manufacturer": "Microsoft Corporation",
                 "model": "Virtual Machine",
                 "osName": "Azure Stack HCI",
-                "osVersion": "10.0.17784.1526",
+                "osVersion": "10.0.17784.1589",
                 "serialNumber": "8684-3041-6592-4520-3963-1183-31",
                 "coreCount": 2,
                 "memoryInGiB": 16
@@ -65,19 +65,19 @@
                 "manufacturer": "Microsoft Corporation",
                 "model": "Virtual Machine",
                 "osName": "Azure Stack HCI",
-                "osVersion": "10.0.17784.1526",
+                "osVersion": "10.0.17784.1589",
                 "serialNumber": "2095-3122-9670-3425-1426-5094-49",
                 "coreCount": 2,
                 "memoryInGiB": 16
               }
             ],
-            "lastUpdated": "2021-03-15T11:00:05.4414711Z"
+            "lastUpdated": "2021-03-18T11:00:00.6086218Z"
           },
-          "trialDaysRemaining": 9,
+          "trialDaysRemaining": 6,
           "billingModel": "Trial",
           "registrationTimestamp": "2021-02-22T09:19:49.9160163Z",
-          "lastBillingTimestamp": "2021-03-15T12:00:05.428Z",
-          "lastSyncTimestamp": "2021-03-15T12:00:07.5435744Z"
+          "lastBillingTimestamp": "2021-03-18T12:00:00.757Z",
+          "lastSyncTimestamp": "2021-03-18T12:00:02.8417404Z"
         },
         "ResourceGroupName": "rg-yaac-onpremfra",
         "Type": "Microsoft.AzureStackHCI/clusters",
