@@ -30,9 +30,6 @@
           "autoRenew": true,
           "readyForDnsRecordManagement": true,
           "managedHostNames": [],
-          "domainNotRenewableReasons": [
-            "ExpirationNotInRenewalTimeRange"
-          ],
           "dnsType": "AzureDns",
           "dnsZoneId": "/subscriptions/d6cf79f8-681b-4d3e-82d3-dd5cc7c83604/resourcegroups/rg-yaac-identity/providers/Microsoft.Network/dnszones/yaac.net"
         },
