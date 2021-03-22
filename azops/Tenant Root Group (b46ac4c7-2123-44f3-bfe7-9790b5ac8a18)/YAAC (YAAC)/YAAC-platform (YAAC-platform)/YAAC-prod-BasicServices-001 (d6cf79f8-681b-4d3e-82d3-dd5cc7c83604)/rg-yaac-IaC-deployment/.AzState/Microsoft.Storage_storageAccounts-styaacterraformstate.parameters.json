@@ -16,6 +16,10 @@
         "ParentResource": null,
         "Plan": null,
         "Properties": {
+          "keyCreationTime": {
+            "key1": null,
+            "key2": null
+          },
           "privateEndpointConnections": [],
           "minimumTlsVersion": "TLS1_0",
           "allowBlobPublicAccess": false,
