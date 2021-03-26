@@ -17,7 +17,7 @@
         "Plan": null,
         "Properties": {
           "provisioningState": "Succeeded",
-          "status": "ConnectedRecently",
+          "status": "NotConnectedRecently",
           "cloudId": "9237f488-fd9e-4e9b-ba03-d9fac89ff74d",
           "aadClientId": "5a9c0dd0-eeb0-42c7-aacf-471e1284bd75",
           "aadTenantId": "b46ac4c7-2123-44f3-bfe7-9790b5ac8a18",
@@ -76,7 +76,7 @@
           "trialDaysRemaining": 0,
           "billingModel": "Standard",
           "registrationTimestamp": "2021-02-22T09:19:49.9160163Z",
-          "lastBillingTimestamp": "2021-03-26T00:00:02.627Z",
+          "lastBillingTimestamp": "2021-03-26T12:00:02.667Z",
           "lastSyncTimestamp": "2021-03-25T12:00:03.0436986Z"
         },
         "ResourceGroupName": "rg-yaac-onpremfra",
