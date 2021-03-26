@@ -24,12 +24,12 @@
           "provisioningState": "Succeeded",
           "agentVersion": "1.3.20346.001",
           "status": "Connected",
-          "lastStatusChange": "2021-03-26T00:07:34.5816182Z",
+          "lastStatusChange": "2021-03-26T06:11:05.1077385Z",
           "errorDetails": [],
           "displayName": "VMOne",
           "machineFqdn": "VMOne",
           "osName": "windows",
-          "osVersion": "10.0.17763.1823",
+          "osVersion": "10.0.17763.1852",
           "osProfile": {
             "computerName": "VMOne"
           },

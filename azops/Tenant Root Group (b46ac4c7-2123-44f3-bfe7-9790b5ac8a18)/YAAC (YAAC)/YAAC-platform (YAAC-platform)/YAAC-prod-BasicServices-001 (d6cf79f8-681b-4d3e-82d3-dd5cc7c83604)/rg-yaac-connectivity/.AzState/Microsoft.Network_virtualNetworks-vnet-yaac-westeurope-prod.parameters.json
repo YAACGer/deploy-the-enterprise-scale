@@ -85,9 +85,7 @@
             }
           ],
           "virtualNetworkPeerings": [],
-          "enableDdosProtection": false,
-          "enableVmProtection": false,
-          "vmProtectionFlagHasChanged": false
+          "enableDdosProtection": false
         },
         "ResourceGroupName": "rg-yaac-connectivity",
         "Type": "Microsoft.Network/virtualNetworks",
