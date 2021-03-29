@@ -25,6 +25,7 @@
             "ns4-03.azure-dns.info."
           ],
           "numberOfRecordSets": 3,
+          "serveRecordsBelowDelegation": null,
           "zoneType": "Public"
         },
         "ResourceGroupName": "rg-yaac-identity",
