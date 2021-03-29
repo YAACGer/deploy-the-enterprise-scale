@@ -76,7 +76,7 @@
           "trialDaysRemaining": 0,
           "billingModel": "Standard",
           "registrationTimestamp": "2021-02-22T09:19:49.9160163Z",
-          "lastBillingTimestamp": "2021-03-28T12:00:03.172Z",
+          "lastBillingTimestamp": "2021-03-29T00:00:03.315Z",
           "lastSyncTimestamp": "2021-03-28T12:00:03.5643345Z"
         },
         "ResourceGroupName": "rg-yaac-onpremfra",
