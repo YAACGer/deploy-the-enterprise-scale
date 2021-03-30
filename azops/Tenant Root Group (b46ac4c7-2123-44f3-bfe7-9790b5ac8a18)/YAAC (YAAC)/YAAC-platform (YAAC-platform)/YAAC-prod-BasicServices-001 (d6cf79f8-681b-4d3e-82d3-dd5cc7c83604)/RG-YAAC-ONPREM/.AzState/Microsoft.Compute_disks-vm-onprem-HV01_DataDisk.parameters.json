@@ -30,7 +30,8 @@
           "diskState": "Reserved",
           "diskSizeBytes": 549755813888,
           "uniqueId": "583d5ee5-d883-4191-a4ae-383e5a653e09",
-          "networkAccessPolicy": "AllowAll"
+          "networkAccessPolicy": "AllowAll",
+          "tier": "P20"
         },
         "ResourceGroupName": "RG-YAAC-ONPREM",
         "Type": "Microsoft.Compute/disks",

@@ -17,7 +17,7 @@
         "Plan": null,
         "Properties": {
           "autoUpgradeMinorVersion": true,
-          "provisioningState": "Succeeded",
+          "provisioningState": "Updating",
           "publisher": "Microsoft.Azure.Monitoring.DependencyAgent",
           "type": "DependencyAgentWindows",
           "typeHandlerVersion": "9.10"
