@@ -17,7 +17,7 @@
         "Plan": null,
         "Properties": {
           "autoUpgradeMinorVersion": true,
-          "provisioningState": "Succeeded",
+          "provisioningState": "Updating",
           "publisher": "Microsoft.EnterpriseCloud.Monitoring",
           "type": "MicrosoftMonitoringAgent",
           "typeHandlerVersion": "1.0",

@@ -1,0 +1,73 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "ResourceId": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea/resourceGroups/rg-TestNetApp/providers/Microsoft.Network/virtualNetworks/rg-TestNetApp-vnet",
+        "Id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea/resourceGroups/rg-TestNetApp/providers/Microsoft.Network/virtualNetworks/rg-TestNetApp-vnet",
+        "Identity": null,
+        "Kind": null,
+        "Location": "westeurope",
+        "ManagedBy": null,
+        "ResourceName": "rg-TestNetApp-vnet",
+        "Name": "rg-TestNetApp-vnet",
+        "ExtensionResourceName": null,
+        "ParentResource": null,
+        "Plan": null,
+        "Properties": {
+          "provisioningState": "Succeeded",
+          "resourceGuid": "469a14d1-ae34-4cc6-9d4f-de5a357c6867",
+          "addressSpace": {
+            "addressPrefixes": [
+              "10.0.0.0/24"
+            ]
+          },
+          "subnets": [
+            {
+              "name": "default",
+              "id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea/resourceGroups/rg-TestNetApp/providers/Microsoft.Network/virtualNetworks/rg-TestNetApp-vnet/subnets/default",
+              "etag": "W/\"6b201cad-d930-4809-b02c-c02089090bea\"",
+              "properties": {
+                "provisioningState": "Succeeded",
+                "addressPrefix": "10.0.0.0/28",
+                "delegations": [
+                  {
+                    "name": "NetAppDelegation",
+                    "id": "/subscriptions/67f16219-3421-4cef-89b9-c06cf90d7bea/resourceGroups/rg-TestNetApp/providers/Microsoft.Network/virtualNetworks/rg-TestNetApp-vnet/subnets/default/delegations/NetAppDelegation",
+                    "etag": "W/\"6b201cad-d930-4809-b02c-c02089090bea\"",
+                    "properties": {
+                      "provisioningState": "Succeeded",
+                      "serviceName": "Microsoft.NetApp/volumes",
+                      "actions": [
+                        "Microsoft.Network/networkinterfaces/*",
+                        "Microsoft.Network/virtualNetworks/subnets/join/action"
+                      ]
+                    },
+                    "type": "Microsoft.Network/virtualNetworks/subnets/delegations"
+                  }
+                ],
+                "purpose": "HostedWorkloads",
+                "privateEndpointNetworkPolicies": "Enabled",
+                "privateLinkServiceNetworkPolicies": "Enabled"
+              },
+              "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+          ],
+          "virtualNetworkPeerings": [],
+          "enableDdosProtection": false
+        },
+        "ResourceGroupName": "rg-TestNetApp",
+        "Type": "Microsoft.Network/virtualNetworks",
+        "ResourceType": "Microsoft.Network/virtualNetworks",
+        "ExtensionResourceType": null,
+        "Sku": null,
+        "Tags": null,
+        "SubscriptionId": "67f16219-3421-4cef-89b9-c06cf90d7bea",
+        "CreatedTime": null,
+        "ChangedTime": null,
+        "ETag": "W/\"6b201cad-d930-4809-b02c-c02089090bea\""
+      }
+    }
+  }
+}

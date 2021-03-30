@@ -16,10 +16,6 @@
         "ParentResource": null,
         "Plan": null,
         "Properties": {
-          "keyCreationTime": {
-            "key1": null,
-            "key2": null
-          },
           "privateEndpointConnections": [],
           "networkAcls": {
             "bypass": "AzureServices",
@@ -55,7 +51,11 @@
             "file": "https://miscsayaac.file.core.windows.net/"
           },
           "primaryLocation": "germanywestcentral",
-          "statusOfPrimary": "available"
+          "statusOfPrimary": "available",
+          "keyCreationTime": {
+            "key1": null,
+            "key2": null
+          }
         },
         "ResourceGroupName": "rg-yaac-onprem",
         "Type": "Microsoft.Storage/storageAccounts",
