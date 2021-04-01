@@ -27,7 +27,7 @@
             {
               "name": "snet-WVD-hostpool-prod-001",
               "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001/subnets/snet-WVD-hostpool-prod-001",
-              "etag": "W/\"06443f15-1821-42fb-9e6f-d84a93797bf2\"",
+              "etag": "W/\"4a31339e-149f-467d-9806-40ba57b9b82d\"",
               "properties": {
                 "provisioningState": "Succeeded",
                 "addressPrefix": "10.10.1.0/24",
@@ -40,10 +40,15 @@
             {
               "name": "snet-WVD-backend-prod-001",
               "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-shared-prod/providers/Microsoft.Network/virtualNetworks/vnet-WVD-westeuropeprod-001/subnets/snet-WVD-backend-prod-001",
-              "etag": "W/\"06443f15-1821-42fb-9e6f-d84a93797bf2\"",
+              "etag": "W/\"4a31339e-149f-467d-9806-40ba57b9b82d\"",
               "properties": {
                 "provisioningState": "Succeeded",
                 "addressPrefix": "10.10.2.0/24",
+                "ipConfigurations": [
+                  {
+                    "id": "/subscriptions/76c9af94-ff5d-4bbe-8e7b-228db3bd1804/resourceGroups/rg-WVD-backend-prod/providers/Microsoft.Network/networkInterfaces/nic-01-VMAPP01-prod-001/ipConfigurations/ipConfig1"
+                  }
+                ],
                 "delegations": [],
                 "privateEndpointNetworkPolicies": "Enabled",
                 "privateLinkServiceNetworkPolicies": "Enabled"
@@ -65,7 +70,7 @@
         "SubscriptionId": "76c9af94-ff5d-4bbe-8e7b-228db3bd1804",
         "CreatedTime": null,
         "ChangedTime": null,
-        "ETag": "W/\"06443f15-1821-42fb-9e6f-d84a93797bf2\""
+        "ETag": "W/\"4a31339e-149f-467d-9806-40ba57b9b82d\""
       }
     }
   }
