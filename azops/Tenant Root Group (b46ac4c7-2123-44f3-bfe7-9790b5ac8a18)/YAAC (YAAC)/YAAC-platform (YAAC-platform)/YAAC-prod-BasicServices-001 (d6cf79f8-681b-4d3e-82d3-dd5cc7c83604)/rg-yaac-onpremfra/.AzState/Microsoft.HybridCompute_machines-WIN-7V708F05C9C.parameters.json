@@ -24,7 +24,7 @@
           "provisioningState": "Succeeded",
           "agentVersion": "1.3.20346.001",
           "status": "Connected",
-          "lastStatusChange": "2021-04-02T11:43:57.380354Z",
+          "lastStatusChange": "2021-04-02T18:09:39.2445195Z",
           "errorDetails": [],
           "displayName": "VMOne",
           "machineFqdn": "VMOne",
