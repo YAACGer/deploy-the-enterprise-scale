@@ -25,7 +25,7 @@
           "RegistrationUrl": "https://8be9f6c5-fdb4-4232-be93-d3d7b6f876d0.agentsvc.we.azure-automation.net/accounts/8be9f6c5-fdb4-4232-be93-d3d7b6f876d0",
           "creationTime": "2020-08-19T09:34:29.12+00:00",
           "lastModifiedBy": null,
-          "lastModifiedTime": "2021-03-29T05:37:53.05+00:00"
+          "lastModifiedTime": "2021-04-02T18:38:01.057+00:00"
         },
         "ResourceGroupName": "rg-myAzureCost",
         "Type": "Microsoft.Automation/automationAccounts",
