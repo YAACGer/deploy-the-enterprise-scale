@@ -25,7 +25,7 @@
           "RegistrationUrl": "https://30a0fc1a-5aae-4072-a12b-4d9e679dd3b3.agentsvc.we.azure-automation.net/accounts/30a0fc1a-5aae-4072-a12b-4d9e679dd3b3",
           "creationTime": "2021-02-22T12:30:47.237+00:00",
           "lastModifiedBy": null,
-          "lastModifiedTime": "2021-03-29T05:37:53.05+00:00"
+          "lastModifiedTime": "2021-04-02T18:38:01.057+00:00"
         },
         "ResourceGroupName": "rg-yaac-management",
         "Type": "Microsoft.Automation/automationAccounts",
